@@ -34,8 +34,8 @@ importers:
         version: 3.6.1
     devDependencies:
       '@11ty/eleventy':
-        specifier: ^3.1.0
-        version: 3.1.0
+        specifier: ^3.1.1
+        version: 3.1.1
       '@11ty/eleventy-img':
         specifier: ^6.0.4
         version: 6.0.4
@@ -119,8 +119,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  '@11ty/eleventy@3.1.0':
-    resolution: {integrity: sha512-yR8zE+i5GKXTlR4I6Aj8dywI7f2/6uGhJPwgbH4vgh+XcZQ9zba9UMS/1Lyvkbl3UySRSAmlzeYiXi1ypV6oZg==}
+  '@11ty/eleventy@3.1.1':
+    resolution: {integrity: sha512-nsMCW44WSYzpi6JSQ1ar/wlotj/2cxuP4AABX5Dxqwol3IQ3SkEMgcAugP1t1mthv5I0kIB9lql1Jv/lhUHIkg==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -2667,7 +2667,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@11ty/eleventy@3.1.0':
+  '@11ty/eleventy@3.1.1':
     dependencies:
       '@11ty/dependency-tree': 4.0.0
       '@11ty/dependency-tree-esm': 2.0.0

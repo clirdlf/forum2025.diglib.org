@@ -74,6 +74,11 @@ Output in `_site`.
 Continuous deployment via GitHub Actions: pushes to `main` or `dev` trigger
 `.github/workflows/deploy.yml` to build & publish to GitHub Pages.
 
+## Continuous Integration
+
+This project uses GitHub Actions for CI to enforce linting, formatting, testing, and build checks on
+every push and pull request. See [`.github/workflows/ci.yml`](.github/workflows/ci.yml) for details.
+
 ## Asset Optimization
 
 | Script               | Description                                                                               |

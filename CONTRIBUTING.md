@@ -1,6 +1,7 @@
 # Contributing to forum2025.diglib.org
 
-Thank you for your interest in contributing! We welcome improvements to code, documentation, and content.
+Thank you for your interest in contributing! We welcome improvements to code, documentation, and
+content.
 
 ## Getting Started
 
@@ -20,8 +21,7 @@ Thank you for your interest in contributing! We welcome improvements to code, do
 
 ## Guidelines
 
-- **Branching**: Create feature branches from `dev`:
-  `git checkout -b feature/description dev`
+- **Branching**: Create feature branches from `dev`: `git checkout -b feature/description dev`
 - **Commits**: Use clear, descriptive messages. For example:
   `feat(cli): add support for filtering drafts`
 - **Formatting**: Run `pnpm format` and ensure `pnpm lint` passes before committing.
@@ -35,4 +35,5 @@ Thank you for your interest in contributing! We welcome improvements to code, do
 
 ## Reporting Issues
 
-Please use the [issue tracker](https://github.com/clirdlf/forum2025.diglib.org/issues) to report bugs or request features.
+Please use the [issue tracker](https://github.com/clirdlf/forum2025.diglib.org/issues) to report
+bugs or request features.

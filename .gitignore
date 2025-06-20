@@ -5,3 +5,4 @@ _site/
 .venv
 scratch.html
 .DS_Store
+package-lock.json

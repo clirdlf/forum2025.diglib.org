@@ -6,6 +6,7 @@ This repository contains the source for the DLF Forum 2025 website. The site is 
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) 20 or later (npm is included)
+- [pnpm](https://pnpm.io/) 8 or later (recommended)
 
 ### Getting started
 1. Clone this repository
@@ -15,22 +16,29 @@ This repository contains the source for the DLF Forum 2025 website. The site is 
    ```
 2. Install dependencies
    ```bash
-   npm install
+   pnpm install
    ```
 3. Start a development server
    ```bash
-   npm start
+   pnpm start
    ```
    Your site is now available at [http://localhost:8080](http://localhost:8080).
 4. (Optional) Run the unit tests
    ```bash
-   npm test
+   pnpm test
    ```
 5. Build the production version
    ```bash
-   npm run build
+   pnpm run build
    ```
    The generated files can be found in the `_site` directory.
+
+## Linting
+
+Lint the codebase (JavaScript, CSS, and HTML/Nunjucks templates):
+```bash
+pnpm lint
+```
 
 ## Deployment workflow
 

@@ -40,6 +40,17 @@ Lint the codebase (JavaScript, CSS, and HTML/Nunjucks templates):
 pnpm lint
 ```
 
+## Formatting
+
+Run Prettier to format all source files:
+```bash
+pnpm format
+```
+Check formatting without writing changes:
+```bash
+pnpm format:check
+```
+
 ## Deployment workflow
 
 Deployment is handled automatically through [GitHub Actions](https://github.com/features/actions). Pushing to the `main` or `dev` branch triggers `.github/workflows/deploy.yml` which installs dependencies, builds the site, and publishes `_site` to GitHub Pages.

@@ -15,6 +15,8 @@ A static site for the DLF Forum 2025 in Denver, built with [Eleventy](https://ww
   - [Building](#building)
   - [Deployment](#deployment)
   - [Asset Optimization](#asset-optimization)
+  - [Contributing](#contributing)
+  - [Changelog](#changelog)
   - [Image Credits](#image-credits)
 
 ## Prerequisites
@@ -84,6 +86,15 @@ Resize inline using Eleventy Image plugin:
 ```njk
 <img eleventy:widths="200,600" src="/static/CLCS-46.jpg" alt="Learn@DLF" class="object-cover" />
 ```
+
+## Contributing
+
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on filing
+issues and submitting pull requests.
+
+## Changelog
+
+All notable changes are documented in [CHANGELOG.md](CHANGELOG.md).
 
 ## Image Credits
 

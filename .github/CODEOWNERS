@@ -1,0 +1,8 @@
+# CODEOWNERS
+# This file defines the users or teams responsible for code in this repository.
+# See https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Example:
+# *      @your-org/your-team
+
+*       @clirdlf/forum-maintainers

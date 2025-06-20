@@ -5,15 +5,17 @@ A static site for the DLF Forum 2025 in Denver, built with [Eleventy](https://ww
 
 ## Table of Contents
 
-1. [Prerequisites](#prerequisites)
-2. [Getting Started](#getting-started)
-3. [Available Scripts](#available-scripts)
-4. [Linting & Formatting](#linting--formatting)
-5. [Testing](#testing)
-6. [Building](#building)
-7. [Deployment](#deployment)
-8. [Asset Optimization](#asset-optimization)
-9. [Image Credits](#image-credits)
+- [forum2025.diglib.org 🌬️](#forum2025digliborg-️)
+  - [Table of Contents](#table-of-contents)
+  - [Prerequisites](#prerequisites)
+  - [Getting Started](#getting-started)
+  - [Available Scripts](#available-scripts)
+  - [Linting \& Formatting](#linting--formatting)
+  - [Testing](#testing)
+  - [Building](#building)
+  - [Deployment](#deployment)
+  - [Asset Optimization](#asset-optimization)
+  - [Image Credits](#image-credits)
 
 ## Prerequisites
 

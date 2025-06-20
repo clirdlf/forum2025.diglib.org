@@ -11,7 +11,7 @@
     "build:postcss": "cross-env NODE_ENV=production postcss src/styles/*.css --dir _site",
     "clean": "rimraf _site",
     "debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
-    "test": "jest",
+    "test": "jest --no-cache",
     "lint:js": "eslint .",
     "lint:css": "stylelint \"src/**/*.{css,scss}\"",
     "lint:html": "html-validate \"src/**/*.{html,njk}\"",

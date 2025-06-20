@@ -11,7 +11,11 @@
     "build:postcss": "cross-env NODE_ENV=production postcss src/styles/*.css --dir _site",
     "clean": "rimraf _site",
     "debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
-    "test": "jest"
+    "test": "jest",
+    "lint:js": "eslint .",
+    "lint:css": "stylelint \"src/**/*.{css,scss}\"",
+    "lint:html": "html-validate \"src/**/*.{html,njk}\"",
+    "lint": "pnpm lint:js && pnpm lint:css && pnpm lint:html"
   },
   "repository": {
     "type": "git",
@@ -41,7 +45,12 @@
     "postcss-cli": "^11.0.1",
     "postcss-import": "^16.1.1",
     "rimraf": "^6.0.1",
-    "tailwindcss": "^3.4.17"
+    "tailwindcss": "^3.4.17",
+    "eslint": "^9.29.0",
+    "stylelint": "^15.0.0",
+    "stylelint-config-standard": "^38.0.0",
+    "stylelint-config-tailwindcss": "^1.0.0",
+    "html-validate": "^9.7.0"
   },
   "dependencies": {
     "@11ty/eleventy-navigation": "^1.0.4",

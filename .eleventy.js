@@ -1,13 +1,13 @@
-const fs = require("fs");
+// const fs = require("fs");
 const htmlmin = require("html-minifier-terser");
-const { type } = require("os");
+// const { type } = require("os");
 const { DateTime } = require("luxon");
 
 const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime"); // https://github.com/5t3ph/eleventy-plugin-emoji-readtime
 
-const { format } = require("path");
+// const { format } = require("path");
 const CleanCSS = require("clean-css");
 
 // 11ty plugins
@@ -23,7 +23,7 @@ module.exports = async function(eleventyConfig) {
   // const branch = process.env.GIT_BRANCH || 'main';
   const branch = branchName() || 'main';
 
-  console.log("Branch: ", branch);
+  // console.log("Branch: ", branch);
 
   if (process.env.ELEVENTY_PRODUCTION) {
     eleventyConfig.addTransform("htmlmin", htmlminTransform);
@@ -66,7 +66,7 @@ module.exports = async function(eleventyConfig) {
       sponsors: sponsors.filter((s) => s.level === level)
     }));
 
-    console.log("Sponsors by level:", result); // helpful debug
+    // console.log("Sponsors by level:", result); // helpful debug
     return result;
   });
   

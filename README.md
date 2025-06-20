@@ -1,14 +1,17 @@
 # forum2025.diglib.org 🌬️
 
-This repository contains the source for the DLF Forum 2025 website. The site is built with [Eleventy](https://www.11ty.dev/) and [Tailwind CSS](https://tailwindcss.com/).
+This repository contains the source for the DLF Forum 2025 website. The site is built with
+[Eleventy](https://www.11ty.dev/) and [Tailwind CSS](https://tailwindcss.com/).
 
 ## Local development
 
 ### Prerequisites
+
 - [Node.js](https://nodejs.org/) 20 or later (npm is included)
 - [pnpm](https://pnpm.io/) 8 or later (recommended)
 
 ### Getting started
+
 1. Clone this repository
    ```bash
    git clone https://github.com/clirdlf/forum2025.diglib.org.git
@@ -36,6 +39,7 @@ This repository contains the source for the DLF Forum 2025 website. The site is 
 ## Linting
 
 Lint the codebase (JavaScript, CSS, and HTML/Nunjucks templates):
+
 ```bash
 pnpm lint
 ```
@@ -43,19 +47,25 @@ pnpm lint
 ## Formatting
 
 Run Prettier to format all source files:
+
 ```bash
 pnpm format
 ```
+
 Check formatting without writing changes:
+
 ```bash
 pnpm format:check
 ```
 
 ## Deployment workflow
 
-Deployment is handled automatically through [GitHub Actions](https://github.com/features/actions). Pushing to the `main` or `dev` branch triggers `.github/workflows/deploy.yml` which installs dependencies, builds the site, and publishes `_site` to GitHub Pages.
+Deployment is handled automatically through [GitHub Actions](https://github.com/features/actions).
+Pushing to the `main` or `dev` branch triggers `.github/workflows/deploy.yml` which installs
+dependencies, builds the site, and publishes `_site` to GitHub Pages.
 
-For more information on GitHub Pages deployments, see the [official documentation](https://docs.github.com/en/pages).
+For more information on GitHub Pages deployments, see the
+[official documentation](https://docs.github.com/en/pages).
 
 ## Resizing Images
 
@@ -82,17 +92,59 @@ Other images can be automagically resized on the page with:
 
 ## Image Credits
 
-- Photo by <a href="https://unsplash.com/@acharki95?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Aziz Acharki</a> on <a href="https://unsplash.com/photos/selective-focus-photography-of-white-and-orange-petaled-flower-tLsOA0Vlvwk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-- Photo by <a href="https://unsplash.com/@apreble?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Andrew Preble</a> on <a href="https://unsplash.com/photos/low-angle-photography-of-union-station-zrhXd14ICRo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-- Photo by <a href="https://unsplash.com/@skjev5280?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">JJ Shev</a> on <a href="https://unsplash.com/photos/union-station-travel-by-train-neon-signage-building-E7_ynWgi9lU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-- Photo by <a href="https://unsplash.com/@nicosmit99?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nico Smit</a> on <a href="https://unsplash.com/photos/text-QnkzvFCxKrA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-- Photo by <a href="https://unsplash.com/@darthxuan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Xuan Nguyen</a> on <a href="https://unsplash.com/photos/shallow-focus-photography-of-honey-bee-g6xmTnzy6Us?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-- Photo by <a href="https://unsplash.com/@reganography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Samuel Regan-Asante</a> on <a href="https://unsplash.com/photos/a-neon-sign-that-says-watch-this-space-Rk8fHGGeyr8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-- Photo by <a href="https://unsplash.com/@jbecks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jonathan Beckman</a> on <a href="https://unsplash.com/photos/blue-and-yellow-wall-graffiti-pDQRQ7lJxZ4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-- Photo by <a href="https://unsplash.com/@mhessling?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">MARK HESSLING</a> on <a href="https://unsplash.com/photos/people-gathering-in-front-of-theater-during-day-nJTM3aXrhFc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-- Photo by <a href="https://unsplash.com/@loganbonjean?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Logan Bonjean</a> on <a href="https://unsplash.com/photos/yellow-and-black-street-lanterns-qgw61durdXo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-- Photo by <a href="https://unsplash.com/@wavkind?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Marcel</a> on <a href="https://unsplash.com/photos/human-hands-doing-heart-gesture-fx39Iesd13M?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-- Photo by <a href="https://unsplash.com/@giuliamay?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Giulia May</a> on <a href="https://unsplash.com/photos/info-arrow-signage-8JFMYz-a8Xo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-- Photo by <a href="https://unsplash.com/@bostonpubliclibrary?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Boston Public Library</a> on <a href="https://unsplash.com/photos/cars-on-road-between-high-rise-buildings-during-daytime-y0OWfnOGnzo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-- Photo by <a href="https://unsplash.com/@planner1963?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Pieter van de Sande</a> on <a href="https://unsplash.com/photos/denver-street-artowrk-r6BdUpN_iSk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-- Photo by <a href="https://unsplash.com/@emilymorter?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Emily Morter</a> on <a href="https://unsplash.com/photos/question-mark-neon-signage-8xAA0f9yQnE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- Photo by
+  <a href="https://unsplash.com/@acharki95?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Aziz
+  Acharki</a> on
+  <a href="https://unsplash.com/photos/selective-focus-photography-of-white-and-orange-petaled-flower-tLsOA0Vlvwk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- Photo by
+  <a href="https://unsplash.com/@apreble?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Andrew
+  Preble</a> on
+  <a href="https://unsplash.com/photos/low-angle-photography-of-union-station-zrhXd14ICRo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- Photo by
+  <a href="https://unsplash.com/@skjev5280?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">JJ
+  Shev</a> on
+  <a href="https://unsplash.com/photos/union-station-travel-by-train-neon-signage-building-E7_ynWgi9lU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- Photo by
+  <a href="https://unsplash.com/@nicosmit99?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nico
+  Smit</a> on
+  <a href="https://unsplash.com/photos/text-QnkzvFCxKrA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- Photo by
+  <a href="https://unsplash.com/@darthxuan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Xuan
+  Nguyen</a> on
+  <a href="https://unsplash.com/photos/shallow-focus-photography-of-honey-bee-g6xmTnzy6Us?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- Photo by
+  <a href="https://unsplash.com/@reganography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Samuel
+  Regan-Asante</a> on
+  <a href="https://unsplash.com/photos/a-neon-sign-that-says-watch-this-space-Rk8fHGGeyr8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- Photo by
+  <a href="https://unsplash.com/@jbecks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jonathan
+  Beckman</a> on
+  <a href="https://unsplash.com/photos/blue-and-yellow-wall-graffiti-pDQRQ7lJxZ4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- Photo by
+  <a href="https://unsplash.com/@mhessling?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">MARK
+  HESSLING</a> on
+  <a href="https://unsplash.com/photos/people-gathering-in-front-of-theater-during-day-nJTM3aXrhFc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- Photo by
+  <a href="https://unsplash.com/@loganbonjean?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Logan
+  Bonjean</a> on
+  <a href="https://unsplash.com/photos/yellow-and-black-street-lanterns-qgw61durdXo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- Photo by
+  <a href="https://unsplash.com/@wavkind?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Marcel</a>
+  on
+  <a href="https://unsplash.com/photos/human-hands-doing-heart-gesture-fx39Iesd13M?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- Photo by
+  <a href="https://unsplash.com/@giuliamay?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Giulia
+  May</a> on
+  <a href="https://unsplash.com/photos/info-arrow-signage-8JFMYz-a8Xo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- Photo by
+  <a href="https://unsplash.com/@bostonpubliclibrary?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Boston
+  Public Library</a> on
+  <a href="https://unsplash.com/photos/cars-on-road-between-high-rise-buildings-during-daytime-y0OWfnOGnzo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- Photo by
+  <a href="https://unsplash.com/@planner1963?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Pieter
+  van de Sande</a> on
+  <a href="https://unsplash.com/photos/denver-street-artowrk-r6BdUpN_iSk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- Photo by
+  <a href="https://unsplash.com/@emilymorter?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Emily
+  Morter</a> on
+  <a href="https://unsplash.com/photos/question-mark-neon-signage-8xAA0f9yQnE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>

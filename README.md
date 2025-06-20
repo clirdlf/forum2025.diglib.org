@@ -1,94 +1,87 @@
 # forum2025.diglib.org 🌬️
 
-This repository contains the source for the DLF Forum 2025 website. The site is built with
-[Eleventy](https://www.11ty.dev/) and [Tailwind CSS](https://tailwindcss.com/).
+A static site for the DLF Forum 2025 in Denver, built with [Eleventy](https://www.11ty.dev/) and
+[Tailwind CSS](https://tailwindcss.com/).
 
-## Local development
+## Table of Contents
 
-### Prerequisites
+1. [Prerequisites](#prerequisites)
+2. [Getting Started](#getting-started)
+3. [Available Scripts](#available-scripts)
+4. [Linting & Formatting](#linting--formatting)
+5. [Testing](#testing)
+6. [Building](#building)
+7. [Deployment](#deployment)
+8. [Asset Optimization](#asset-optimization)
+9. [Image Credits](#image-credits)
 
-- [Node.js](https://nodejs.org/) 20 or later (npm is included)
-- [pnpm](https://pnpm.io/) 8 or later (recommended)
+## Prerequisites
 
-### Getting started
+- **Node.js** 20 or later (npm included)
+- **pnpm** 8 or later (recommended)
+- **ImageMagick** (`magick` CLI) for resizing hero images
+- **cwebp** (WebP tools) for WebP conversion
 
-1. Clone this repository
-   ```bash
-   git clone https://github.com/clirdlf/forum2025.diglib.org.git
-   cd forum2025.diglib.org
-   ```
-2. Install dependencies
-   ```bash
-   pnpm install
-   ```
-3. Start a development server
-   ```bash
-   pnpm start
-   ```
-   Your site is now available at [http://localhost:8080](http://localhost:8080).
-4. (Optional) Run the unit tests
-   ```bash
-   pnpm test
-   ```
-5. Build the production version
-   ```bash
-   pnpm run build
-   ```
-   The generated files can be found in the `_site` directory.
+## Getting Started
 
-## Linting
+Clone the repo and install dependencies:
 
-Lint the codebase (JavaScript, CSS, and HTML/Nunjucks templates):
+```bash
+git clone https://github.com/clirdlf/forum2025.diglib.org.git
+cd forum2025.diglib.org
+pnpm install
+```
+
+## Available Scripts
+
+| Command             | Description                                          |
+| ------------------- | ---------------------------------------------------- |
+| `pnpm start`        | Run dev server and watch CSS (http://localhost:8080) |
+| `pnpm test`         | Execute unit tests (Jest)                            |
+| `pnpm build`        | Build production site (HTML + CSS)                   |
+| `pnpm lint`         | Run ESLint, Stylelint & HTML-Validate                |
+| `pnpm format`       | Format codebase with Prettier                        |
+| `pnpm format:check` | Check code formatting with Prettier                  |
+| `pnpm clean`        | Remove generated site folder (`_site`)               |
+
+## Linting & Formatting
 
 ```bash
 pnpm lint
-```
-
-## Formatting
-
-Run Prettier to format all source files:
-
-```bash
-pnpm format
-```
-
-Check formatting without writing changes:
-
-```bash
 pnpm format:check
 ```
 
-## Deployment workflow
-
-Deployment is handled automatically through [GitHub Actions](https://github.com/features/actions).
-Pushing to the `main` or `dev` branch triggers `.github/workflows/deploy.yml` which installs
-dependencies, builds the site, and publishes `_site` to GitHub Pages.
-
-For more information on GitHub Pages deployments, see the
-[official documentation](https://docs.github.com/en/pages).
-
-## Resizing Images
-
-<https://www.roberthorvick.com/blog/converting-images-from-png-jpg-to-webp-and-resizing>
-
-    cwebp infile.png -o outfile.webp
-
-Run resize script:
+## Testing
 
 ```bash
-    ./resize_images.sh
+pnpm test
 ```
 
-Hero Images
+## Building
 
 ```bash
-cd src/static
-magick convert src/static/boston-public-library-y0OWfnOGnzo-unsplash.jpg
+pnpm build
 ```
 
-Other images can be automagically resized on the page with:
+Output in `_site`.
 
-    <img eleventy:widths="200,600" src="/static/CLCS-46.jpg" alt="Learn@DLF" class="h-full w-full rounded-xl lg:min-h-[450px] object-cover"/>
+## Deployment
+
+Continuous deployment via GitHub Actions: pushes to `main` or `dev` trigger
+`.github/workflows/deploy.yml` to build & publish to GitHub Pages.
+
+## Asset Optimization
+
+| Script               | Description                                                                               |
+| -------------------- | ----------------------------------------------------------------------------------------- |
+| `./resize_images.sh` | Resize images in `src/static` to a max of 2560×1400 via ImageMagick (`mogrify`).          |
+| `./generate_webp.sh` | Convert `.jpg` files in `src/static` to `.webp` using `cwebp` (use `--all` to reprocess). |
+
+Resize inline using Eleventy Image plugin:
+
+```njk
+<img eleventy:widths="200,600" src="/static/CLCS-46.jpg" alt="Learn@DLF" class="object-cover" />
+```
 
 ## Image Credits
 

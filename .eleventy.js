@@ -17,6 +17,8 @@ module.exports = async function(eleventyConfig) {
   const { IdAttributePlugin, HtmlBasePlugin } = await import("@11ty/eleventy");
   const { default: branchName } = await import("current-git-branch");
 
+  eleventyConfig.setTemplateFormats(["njk", "js", "md", "html"]);
+
   eleventyConfig.addBundle("css");
   eleventyConfig.addBundle("js");
 
@@ -80,6 +82,10 @@ module.exports = async function(eleventyConfig) {
       style: 'currency',
       currency: 'USD',
     }).format(value);
+  });
+
+  eleventyConfig.addFilter('stringify', (data) => {
+    return JSON.stringify(data, null, "\t"); // Using tab for indentation
   });
 
   // @see https://www.11ty.dev/docs/quicktips/inline-css/

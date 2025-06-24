@@ -11,3 +11,22 @@ html {
 .tab-content {
   transition: opacity 300ms ease-in-out;
 }
+
+#searchResults {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  z-index: 50;
+  border: 1px solid #ccc;
+}
+
+#searchResults a {
+  display: block;
+  padding: 0.25rem 0.5rem;
+}
+
+#searchResults a:hover {
+  background-color: #f0f0f0;
+}

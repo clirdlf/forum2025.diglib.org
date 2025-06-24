@@ -46,29 +46,66 @@
 
     <body class="font-sans leading-normal tracking-normal text-gray-900">
 
-        <div class="flex p-4 bg-gray-50">
+        <div class="flex flex-col lg:flex-row bg-gray-50 min-h-screen">
 
             {% include 'dashboard-navigation.njk' %}
 
         </div>
 
-        <main class="w-full ml-12">
+        <main class="flex-1 px-4 py-6 lg:px-6 lg:py-10 w-full ml-12 overflow-x-hidden">
+            {# flex-1 px-4 py-6 lg:px-6 lg:py-10 #}
             {# TODO: Add top-navigation #}
 
-            <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md w-full mt-10">
+            <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md w-full mt-10 overflow-x-hidden">
                 {{ content | safe }}
             </div>
 
-           {% include "dashboard-footer.njk" %}
+            {% include "dashboard-footer.njk" %}
         </main>
 
         {% include "scroll-top-button.njk" %}
 
         {# {% include "footer.njk" %} #}
         <script src="/assets/js/main.js"></script>
-        <script src="https://unpkg.com/@material-tailwind/html@2.3.2/scripts/collapse.js"></script>
+        {# <script src="https://unpkg.com/@material-tailwind/html@2.3.2/scripts/collapse.js"></script> #}
         <script src="https://unpkg.com/@material-tailwind/html@2.3.2/scripts/ripple.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+        {# <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script> #}
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.1.0"></script>
 
+        <script>
+            let fuse;
+            const input = document.getElementById("searchInput");
+            const resultsList = document.getElementById("searchResults");
+
+            fetch("{{ "/search.json" | url }}")
+                .then(res => res.json())
+                .then(data => {
+                    fuse = new Fuse(data, {
+                        keys: [
+                            "title", "content"
+                        ],
+                        includeScore: true,
+                        threshold: 0.3
+                    });
+                });
+
+            input.addEventListener("input", () => {
+                const query = input
+                    .value
+                    .trim();
+                resultsList.innerHTML = "";
+                if (!query || !fuse) 
+                    return;
+                
+                const results = fuse
+                    .search(query)
+                    .slice(0, 5);
+                results.forEach(({item}) => {
+                    const li = document.createElement("li");
+                    li.innerHTML = `<a href="${item.url}" class="block hover:underline">${item.title}</a>`;
+                    resultsList.appendChild(li);
+                });
+            });
+        </script>
     </body>
 </html>

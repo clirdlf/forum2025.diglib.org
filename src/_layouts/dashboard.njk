@@ -23,7 +23,6 @@
             {%- endfor %}
         {%- endif %}
 
-        {# <link href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap" rel="stylesheet"/> #}
         <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet"/>
 
@@ -55,6 +54,8 @@
         <main class="flex-1 px-4 py-6 lg:px-6 lg:py-10 w-full ml-12 overflow-x-hidden">
             {# flex-1 px-4 py-6 lg:px-6 lg:py-10 #}
             {# TODO: Add top-navigation #}
+
+            {# {% include "navigation3.njk" %} #}
 
             <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md w-full mt-10 overflow-x-hidden">
                 {{ content | safe }}

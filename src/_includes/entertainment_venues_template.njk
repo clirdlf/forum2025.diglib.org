@@ -5,15 +5,15 @@
     <label for="entertainmentTagFilter" class="block font-medium text-gray-700 mb-1">Filter by tag:</label>
     <div id="entertainmentTagButtons" class="flex flex-wrap gap-2">
       <button onclick="filterEntertainmentByTag('')" class="tag-btn bg-gray-200 hover:bg-gray-300 text-sm px-3 py-1 rounded">All</button>
-      <button onclick="filterEntertainmentByTag('music')" class="tag-btn bg-blue-100 hover:bg-blue-200 text-blue-800 text-sm px-3 py-1 rounded">Music</button>
-      <button onclick="filterEntertainmentByTag('film')" class="tag-btn bg-blue-100 hover:bg-blue-200 text-blue-800 text-sm px-3 py-1 rounded">Film</button>
-      <button onclick="filterEntertainmentByTag('comedy')" class="tag-btn bg-blue-100 hover:bg-blue-200 text-blue-800 text-sm px-3 py-1 rounded">Comedy</button>
-      <button onclick="filterEntertainmentByTag('theater')" class="tag-btn bg-blue-100 hover:bg-blue-200 text-blue-800 text-sm px-3 py-1 rounded">Theater</button>
-      <button onclick="filterEntertainmentByTag('dance')" class="tag-btn bg-blue-100 hover:bg-blue-200 text-blue-800 text-sm px-3 py-1 rounded">Dance</button>
-      <button onclick="filterEntertainmentByTag('broadway')" class="tag-btn bg-blue-100 hover:bg-blue-200 text-blue-800 text-sm px-3 py-1 rounded">Broadway</button>
-      <button onclick="filterEntertainmentByTag('club')" class="tag-btn bg-blue-100 hover:bg-blue-200 text-blue-800 text-sm px-3 py-1 rounded">Club</button>
-      <button onclick="filterEntertainmentByTag('retail')" class="tag-btn bg-blue-100 hover:bg-blue-200 text-blue-800 text-sm px-3 py-1 rounded">Retail</button>
-      <button onclick="filterEntertainmentByTag('trail')" class="tag-btn bg-blue-100 hover:bg-blue-200 text-blue-800 text-sm px-3 py-1 rounded">Trail</button>
+      <button onclick="filterEntertainmentByTag('music')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded">Music</button>
+      <button onclick="filterEntertainmentByTag('film')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded">Film</button>
+      <button onclick="filterEntertainmentByTag('comedy')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded">Comedy</button>
+      <button onclick="filterEntertainmentByTag('theater')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded">Theater</button>
+      <button onclick="filterEntertainmentByTag('dance')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded">Dance</button>
+      <button onclick="filterEntertainmentByTag('broadway')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded">Broadway</button>
+      <button onclick="filterEntertainmentByTag('club')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded">Club</button>
+      <button onclick="filterEntertainmentByTag('retail')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded">Retail</button>
+      <button onclick="filterEntertainmentByTag('trail')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded">Trail</button>
     </div>
   </div>
 
@@ -51,7 +51,7 @@
       {% if venue.tags.length > 0 %}
       <p class="mt-2 text-sm text-gray-500 flex flex-wrap gap-1">
         {% for tag in venue.tags %}
-        <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">{{ tag }}</span>
+        <span class="inline-block bg-blue-200 text-blue-900 text-xs font-semibold px-2 py-1 rounded">{{ tag }}</span>
         {% endfor %}
       </p>
       {% endif %}

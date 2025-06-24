@@ -2,24 +2,61 @@
 layout: default
 ---
 
-<section class="flex pt-24 pb-12 px-44">
-    <div class="w-1/4 ml-auto">
-        <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md w-full">
-            <div class="p-6">
-                {% for item in info_nav %}
-                    <a href="{{ item.link }}">
-                        <h6 class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-inherit mb-2">{{ item.title }}</h6>
-                    </a>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-    <div class="w-2/3 ml-12 mr-auto">
-        <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md">
-            <div class="p-6">
-                {{ content | safe }}
-            </div>
-        </div>
-    </div>
+<!-- Font Awesome (in default layout ideally, but include here if needed for isolation) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-</section>
+<!-- Mobile nav toggle -->
+<div class="lg:hidden fixed top-4 left-4 z-50">
+  <button id="toggle-nav" class="p-2 bg-white shadow rounded">
+    <i class="fas fa-bars text-blue-gray-700"></i>
+  </button>
+</div>
+
+<div class="flex flex-col lg:flex-row bg-gray-50 min-h-screen">
+
+  <!-- Sidebar Navigation -->
+  <aside id="sidebar" class="fixed lg:static top-0 left-0 z-40 h-full w-64 bg-white text-gray-700 shadow-xl transform -translate-x-full lg:translate-x-0 transition-transform duration-300 ease-in-out">
+    <div class="flex flex-col h-full p-4">
+      <div class="mb-2 flex items-center gap-4 p-4">
+        <h5 class="text-xl font-semibold text-blue-gray-900">Resources</h5>
+      </div>
+      <nav class="flex flex-col gap-1 p-2 font-sans text-base text-blue-gray-700 overflow-y-auto">
+        <hr class="my-2 border-blue-gray-50">
+        {% for item in info_nav %}
+          <a href="{{ item.link }}">
+            <div role="button" tabindex="0" class="flex items-center w-full p-3 rounded-lg leading-tight transition-all hover:bg-blue-gray-50 hover:text-blue-gray-900">
+              <i class="{{ item.icon }} w-5 mr-3 text-blue-gray-400"></i>
+              {{ item.title }}
+            </div>
+          </a>
+        {% endfor %}
+      </nav>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="flex-1 p-6 lg:ml-64">
+    <div class="relative flex flex-col bg-white rounded-xl shadow-md text-gray-700">
+      <div class="mt-4 mx-4">
+        <div class="mb-8 flex items-center justify-between gap-8">
+          <div>
+            <h5 class="text-xl font-semibold text-blue-gray-900">{{ title }}</h5>
+          </div>
+        </div>
+        <div>
+          {{ content | safe }}
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<!-- JS: Toggle Sidebar on Mobile -->
+<script>
+  const toggleBtn = document.getElementById('toggle-nav');
+  const sidebar = document.getElementById('sidebar');
+
+  toggleBtn?.addEventListener('click', () => {
+    sidebar.classList.toggle('-translate-x-full');
+  });
+</script>

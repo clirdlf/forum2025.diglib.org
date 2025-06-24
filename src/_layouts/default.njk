@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth md:scroll-auto">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>{{ title or metadata.title }}</title>
-    <!-- Meta -->
-    <meta name="description" content="{{ metadata.description }}" />
-    <meta name="generator" content="{{ eleventy.generator }}" />
+    {# Metadata #}
+    <meta name="description" content="{{ metadata.description }}"/>
+    <meta name="generator" content="{{ eleventy.generator }}"/>
 
-    <!-- Icons -->
-    <!-- https://favicon.io/ -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/static/apple-touch-icon.png' }}" />
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/static/favicon-32x32.png'  }}" />
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/static/favicon-16x16.png'  }}" />
-    <link rel="manifest" href="{{ '/site.webmanifest'  }}" />
+    {# Icons #}
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/static/apple-touch-icon.png' }}"/>
+    <link rel="icon" type="image/svg+xml" href="{{ '/static/favicon.svg' }}"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/static/favicon-32x32.png'  }}"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/static/favicon-16x16.png'  }}"/>
+    <link rel="shortcut icon" href="{{ '/static/favicon.ico' }}"/>
+    <link rel="manifest" href="{{ '/site.webmanifest'  }}"/>
     {%- if preload %}
       {%- for link in preload %}
         <link rel="preload" as="image" href="{{ link }}">
@@ -21,27 +22,30 @@
     {%- endif %}
 
     {# <link href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap" rel="stylesheet"/> #}
-    <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet"/>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ metadata.google_id }}"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+      function gtag() {
+        dataLayer.push(arguments);
+      }
       gtag('js', new Date());
       gtag('config', '{{ metadata.google_id }}');
     </script>
-    
-    <link media="screen" rel="stylesheet" href="{{ '/site.css' }}" />
-    <style>{% getBundle "css" %}</style>
+
+    <link media="screen" rel="stylesheet" href="{{ '/site.css' }}"/>
+    <style>
+      {% getBundle "css" %}
+    </style>
   </head>
 
   <body class="font-sans leading-normal tracking-normal text-gray-900">
     {% include "navigation3.njk" %}
 
-
-   {% if cover %}
+    {% if cover %}
       {% css %}
         #hero {
           background-image: url({{ cover | url }});

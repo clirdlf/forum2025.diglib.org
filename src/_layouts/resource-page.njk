@@ -1,0 +1,88 @@
+---
+layout: default.njk
+---
+
+{# sidebar #}
+<div class="lg:w-1/4 bg-white border-r shadow-md flex flex-col">
+    <!-- Mobile hamburger -->
+    <div class="lg:hidden flex items-center justify-between p-4">
+        <div class="text-xl font-semibold">Menu</div>
+        <button id="navToggle" class="focus:outline-none">
+            <span class="material-icons">menu</span>
+        </button>
+    </div>
+    <!-- Nav list -->
+    <nav id="sidebar" class="px-4 pt-2 pb-4 lg:block hidden transform lg:transform-none transition-transform duration-300 bg-white">
+        <ul class="space-y-2">
+            {% set pages = [
+                {
+                    key: 'attendees',
+                    label: 'Attendees',
+                    icon: 'people'
+                }, {
+                    key: 'presenters',
+                    label: 'Presenters',
+                    icon: 'mic'
+                }, {
+                    key: 'sponsors',
+                    label: 'Sponsors',
+                    icon: 'business'
+                }, {
+                    key: 'scholarships',
+                    label: 'Scholarships',
+                    icon: 'school'
+                }, {
+                    key: 'venue',
+                    label: 'Venue',
+                    icon: 'location_on'
+                }, {
+                    key: 'lodging',
+                    label: 'Lodging & Transportation',
+                    icon: 'flight'
+                }, {
+                    key: 'volunteers',
+                    label: 'Volunteers',
+                    icon: 'volunteer_activism'
+                }, {
+                    key: 'social',
+                    label: 'Social Activities',
+                    icon: 'event'
+                }
+            ] %}
+            {% for page in pages %}
+                <li>
+                    <a href="/{{ page.key }}/" class="flex items-center p-2 rounded hover:bg-gray-100 scroll-link" data-target="#{{ page.key }}-section">
+                        <span class="material-icons mr-2">{{ page.icon }}</span>
+                        <span>{{ page.label }}</span>
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </nav>
+</div>
+
+<main class="flex-1 overflow-auto p-6 lg:w-2/3">
+    {{ content | safe }}
+</main>
+
+<script>
+      // Mobile sidebar toggle
+      const navToggle = document.getElementById('navToggle');
+      const sidebar = document.getElementById('sidebar');
+      navToggle.addEventListener('click', () => {
+        sidebar.classList.toggle('-translate-x-full');
+      });
+
+      // Scroll-spy
+      const links = document.querySelectorAll('.scroll-link');
+      const sections = Array.from(links).map(l => document.querySelector(l.getAttribute('href')));
+      window.addEventListener('scroll', () => {
+        let idx = sections.findIndex(sec => {
+          const rect = sec.getBoundingClientRect();
+          return rect.top <= 100 && rect.bottom > 100;
+        });
+        links.forEach((link, i) => {
+          if (i === idx) link.classList.add('bg-gray-200'); else link.classList.remove('bg-gray-200');
+        });
+      });
+    </script>

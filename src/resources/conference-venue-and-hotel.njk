@@ -20,14 +20,14 @@ eleventyNavigation:
         </p>
 
         <p class="text-lg text-gray-700">
-            Reserve your room at <strong>$249 per night</strong> (plus 15.75% tax). Rooms are first-come, first-served and may sell out before the <strong>Friday, October 24, 2025</strong> deadline. We recommend booking early.
+            Reserve your room at <strong>$249 per night</strong> plus applicable stand and local taxes (currently 15.75%). Rooms are first-come, first-served and may sell out before the <strong>Friday, October 24, 2025</strong> deadline. We recommend booking early.
         </p>
 
         <p class="text-lg text-gray-700">
             Call <a href="tel:3035729100" class="text-blue-700 font-medium underline">(303) 572-9100</a> or <a target="_blank" href="https://book.passkey.com/event/50987045/owner/3485/home" class="text-blue-700 font-medium underline">book online</a>.
         </p>
 
-        <h2 class="text-2xl font-semibold text-blue-gray-800 pt-8">📅 Cancelation Policy</h2>
+        <h2 class="text-2xl font-semibold text-blue-gray-800 pt-8">📅 Cancellation Policy</h2>
         <p class="text-lg text-gray-700">Cancel up to 72 hours prior to check-in with no penalty.</p>
         <p class="text-lg text-gray-700">Accessibility needs such as feather- or fragrance-free rooms should be communicated directly with the hotel during booking.</p>
     </div>
@@ -83,6 +83,7 @@ eleventyNavigation:
         .openPopup();
 
     const tiles = L
+        //.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner_background/{z}/{x}/{y}{r}.{ext}', {
         .tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner_background/{z}/{x}/{y}{r}.{ext}', {
             minZoom: 0,
             maxZoom: 20,

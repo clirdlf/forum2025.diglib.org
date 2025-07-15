@@ -13,17 +13,17 @@ const CleanCSS = require("clean-css");
 // 11ty plugins
 const eleventyPluginHubspot = require('eleventy-plugin-hubspot');
 
-module.exports = async function(eleventyConfig) {
-  const { IdAttributePlugin, HtmlBasePlugin } = await import("@11ty/eleventy");
-  const { default: branchName } = await import("current-git-branch");
+const { IdAttributePlugin, HtmlBasePlugin } = require("@11ty/eleventy");
+const gitBranch = require("git-branch");
 
+module.exports = function(eleventyConfig) {
   eleventyConfig.setTemplateFormats(["njk", "js", "md", "html"]);
 
   eleventyConfig.addBundle("css");
   eleventyConfig.addBundle("js");
 
   // const branch = process.env.GIT_BRANCH || 'main';
-  const branch = branchName() || 'main';
+  const branch = gitBranch.sync() || 'main';
 
   // console.log("Branch: ", branch);
 

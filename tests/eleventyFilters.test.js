@@ -1,3 +1,8 @@
+jest.mock('@11ty/eleventy', () => ({
+  IdAttributePlugin: jest.fn(),
+  HtmlBasePlugin: jest.fn(),
+}));
+
 const configureEleventy = require('../.eleventy.js');
 
 // Set up a fake EleventyConfig to capture filters
@@ -13,6 +18,7 @@ async function getFilters() {
     addCollection: () => {},
     addFilter: (name, fn) => { filters[name] = fn; },
     getFilter: (n) => (n === 'slugify' ? (s) => s : undefined),
+    setTemplateFormats: () => {},
   };
   await configureEleventy(fakeConfig);
   return filters;

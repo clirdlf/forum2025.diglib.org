@@ -1,5 +1,6 @@
 module.exports = ({ env }) => ({
   plugins: {
+    'postcss-nested': {},
     '@tailwindcss/postcss': {},
     cssnano:
       env === "production"

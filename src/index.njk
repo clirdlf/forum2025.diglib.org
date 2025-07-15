@@ -10,7 +10,9 @@ eleventyNavigation:
   order: 1
 ---
 
-<div id="hero" class="relative h-168 w-full bg-[url('/static/denver-mural.webp')] bg-cover bg-center bg-no-repeat">
+
+
+<div id="hero" class="relative h-168 w-full bg-cover bg-center bg-no-repeat" {% if cover %}style="background-image: url('{{ cover | url }}')"{% endif %}>
   <div class="absolute inset-0 h-full w-full bg-black/50"></div>
   <div class="grid min-h-200 px-12">
     <div class="container relative z-10 my-auto mx-auto">

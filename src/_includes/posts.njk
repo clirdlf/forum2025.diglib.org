@@ -3,7 +3,7 @@
     <div class="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-3">
     {%- for post in collections.post | reverse -%}
     <a href="{{ post.url }}" class="group">
-        <div class="flex-col bg-clip-border bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl">
+        <div class="flex-col bg-clip-border bg-transparent text-gray-700 shadow-md relative grid min-h-120 items-end overflow-hidden rounded-xl">
             <img eleventy:widths="200,600" src="{{ post.data.cover }}" alt="bg" class="absolute inset-0 h-full w-full object-cover object-center" />
             
             <!-- Overlay background with hover effect -->

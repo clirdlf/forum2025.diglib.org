@@ -4,15 +4,15 @@
   <div class="mb-4">
     <label for="cultureTagFilter" class="block font-medium text-gray-700 mb-1">Filter by tag:</label>
     <div id="cultureTagButtons" class="flex flex-wrap gap-2">
-      <button onclick="filterCultureByTag('')" class="tag-btn bg-gray-200 hover:bg-gray-300 text-sm px-3 py-1 rounded">All</button>
-      <button onclick="filterCultureByTag('museum')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded">Museum</button>
-      <button onclick="filterCultureByTag('art')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded">Art</button>
-      <button onclick="filterCultureByTag('interactive')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded">Interactive</button>
-      <button onclick="filterCultureByTag('outdoor')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded">Outdoor</button>
-      <button onclick="filterCultureByTag('historic')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded">Historic</button>
-      <button onclick="filterCultureByTag('shopping')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded">Shopping</button>
-      <button onclick="filterCultureByTag('bookstore')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded">Bookstore</button>
-      <button onclick="filterCultureByTag('library')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded">Library</button>
+      <button onclick="filterCultureByTag('')" class="tag-btn bg-gray-200 hover:bg-gray-300 text-sm px-3 py-1 rounded-sm">All</button>
+      <button onclick="filterCultureByTag('museum')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded-sm">Museum</button>
+      <button onclick="filterCultureByTag('art')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded-sm">Art</button>
+      <button onclick="filterCultureByTag('interactive')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded-sm">Interactive</button>
+      <button onclick="filterCultureByTag('outdoor')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded-sm">Outdoor</button>
+      <button onclick="filterCultureByTag('historic')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded-sm">Historic</button>
+      <button onclick="filterCultureByTag('shopping')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded-sm">Shopping</button>
+      <button onclick="filterCultureByTag('bookstore')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded-sm">Bookstore</button>
+      <button onclick="filterCultureByTag('library')" class="tag-btn bg-blue-200 hover:bg-blue-300 text-blue-900 text-sm px-3 py-1 rounded-sm">Library</button>
     </div>
   </div>
 
@@ -51,7 +51,7 @@
       {% if place.tags.length > 0 %}
       <p class="mt-2 text-sm text-gray-500 flex flex-wrap gap-1">
         {% for tag in place.tags %}
-        <span class="inline-block bg-blue-200 text-blue-900 text-xs font-semibold px-2 py-1 rounded">{{ tag }}</span>
+        <span class="inline-block bg-blue-200 text-blue-900 text-xs font-semibold px-2 py-1 rounded-sm">{{ tag }}</span>
         {% endfor %}
       </p>
       {% endif %}

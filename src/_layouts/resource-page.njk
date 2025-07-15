@@ -7,7 +7,7 @@ layout: default.njk
     <!-- Mobile hamburger -->
     <div class="lg:hidden flex items-center justify-between p-4">
         <div class="text-xl font-semibold">Menu</div>
-        <button id="navToggle" class="focus:outline-none">
+        <button id="navToggle" class="focus:outline-hidden">
             <span class="material-icons">menu</span>
         </button>
     </div>
@@ -51,7 +51,7 @@ layout: default.njk
             ] %}
             {% for page in pages %}
                 <li>
-                    <a href="/{{ page.key }}/" class="flex items-center p-2 rounded hover:bg-gray-100 scroll-link" data-target="#{{ page.key }}-section">
+                    <a href="/{{ page.key }}/" class="flex items-center p-2 rounded-sm hover:bg-gray-100 scroll-link" data-target="#{{ page.key }}-section">
                         <span class="material-icons mr-2">{{ page.icon }}</span>
                         <span>{{ page.label }}</span>
                     </a>

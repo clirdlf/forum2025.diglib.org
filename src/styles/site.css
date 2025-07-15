@@ -30,7 +30,7 @@ html {
   transition: opacity 300ms ease-in-out;
 }
 
-#searchResults {
+#search-results {
   position: absolute;
   top: 100%;
   left: 0;
@@ -40,11 +40,11 @@ html {
   border: 1px solid #ccc;
 }
 
-#searchResults a {
+#search-results a {
   display: block;
   padding: 0.25rem 0.5rem;
 }
 
-#searchResults a:hover {
+#search-results a:hover {
   background-color: #f0f0f0;
 }

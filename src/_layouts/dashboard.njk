@@ -76,7 +76,7 @@
         <script>
             let fuse;
             const input = document.getElementById("searchInput");
-            const resultsList = document.getElementById("searchResults");
+            const resultsList = document.getElementById("search-results");
 
             fetch("{{ "/search.json" | url }}")
                 .then(res => res.json())

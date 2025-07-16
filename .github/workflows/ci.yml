@@ -10,30 +10,27 @@ jobs:
   quality:
     name: Lint, Format, Test & Build
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Node.js and pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v4
         with:
-          version: 8
+          version: 10
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
-        working-directory: forum2025.diglib.org
 
       - name: Lint (ESLint, Stylelint, HTML-Validate)
         run: pnpm lint
-        working-directory: forum2025.diglib.org
 
       - name: Check code formatting
         run: pnpm format:check
-        working-directory: forum2025.diglib.org
 
       - name: Build site
         run: pnpm build
 
       - name: Run unit tests
         run: pnpm test
-

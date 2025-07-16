@@ -5,5 +5,6 @@ module.exports = {
   ],
   rules: {
     'no-descending-specificity': null,
+    'at-rule-no-deprecated': null,
   },
 };

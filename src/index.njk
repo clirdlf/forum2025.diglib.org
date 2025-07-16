@@ -10,146 +10,147 @@ eleventyNavigation:
   order: 1
 ---
 
-
-
-<div id="hero" class="relative h-168 w-full bg-cover bg-center bg-no-repeat" {% if cover %}style="background-image: url('{{ cover | url }}')"{% endif %}>
-  <div class="absolute inset-0 h-full w-full bg-black/50"></div>
-  <div class="grid min-h-200 px-12">
-    <div class="container relative z-10 my-auto mx-auto">
-      <h3  class="block font-sans text-lg font-semibold leading-snug! tracking-normal text-white antialiased lg:text-2xl">
-        November 16-19, Denver, CO
-      </h3>
-      <h1 class="my-4 block font-sans text-3xl font-semibold leading-snug! tracking-normal text-white antialiased lg:text-5xl">
-        DLF Forum 2025
-      </h1>
-      <p class="mb-10 block w-full font-sans text-xl font-normal leading-relaxed text-white/80 antialiased md:max-w-full lg:max-w-xl">
-        Mark your calendars and join us for a multi-day experience for learning, networking, and skill building in the Mile High City — taking place at The Westin Denver Downtown! Room block info coming soon.
-      </p>
+<main role="main" id="main-content">
+  <div id="hero" class="relative h-168 w-full bg-cover bg-center bg-no-repeat" {% if cover %}style="background-image: url('{{ cover | url }}')"{% endif %}>
+    <div class="absolute inset-0 h-full w-full bg-black/50"></div>
+    <div class="grid min-h-200 px-12">
+      <div class="container relative z-10 my-auto mx-auto">
+        <h3  class="block font-sans text-lg font-semibold leading-snug! tracking-normal text-white antialiased lg:text-2xl">
+          November 16-19, Denver, CO
+        </h3>
+        <h1 class="my-4 block font-sans text-3xl font-semibold leading-snug! tracking-normal text-white antialiased lg:text-5xl">
+          DLF Forum 2025
+        </h1>
+        <p class="mb-10 block w-full font-sans text-xl font-normal leading-relaxed text-white/80 antialiased md:max-w-full lg:max-w-xl">
+          Mark your calendars and join us for a multi-day experience for learning, networking, and skill building in the Mile High City — taking place at The Westin Denver Downtown! Room block info coming soon.
+        </p>
+      </div>
     </div>
   </div>
-</div>
-<div class="relative mx-8 -mt-14 rounded-xl bg-white p-6 shadow-md lg:mx-16">
-  <div class="grid grid-cols-1 justify-between gap-8 md:col-span-1 lg:grid-cols-3">
-    <div class="relative flex flex-col rounded-xl bg-blue-800 bg-clip-border text-white shadow-md shadow-gray-900/20">
-      <div class="flex items-start gap-4 p-6">
 
-        <i class="fa-solid fa-bullhorn text-xl h-7 w-7 shrink-0 text-white"></i>
+  <div class="relative mx-8 -mt-14 rounded-xl bg-white p-6 shadow-md lg:mx-16">
+    <div class="grid grid-cols-1 justify-between gap-8 md:col-span-1 lg:grid-cols-3">
+      <div class="relative flex flex-col rounded-xl bg-blue-800 bg-clip-border text-white shadow-md shadow-gray-900/20">
+        <div class="flex items-start gap-4 p-6">
 
-        <div class="grid">
-          <h2 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-white antialiased">
-            Forum 2025 Program
-          </h2>
-          <p class="block font-sans text-base font-normal leading-relaxed text-white antialiased">
-            Explore the full schedule, speakers, and session details for this year’s Forum!
-          </p>
+          <i class="fa-solid fa-bullhorn text-xl h-7 w-7 shrink-0 text-white"></i>
+
+          <div class="grid">
+            <h2 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-white antialiased">
+              Forum 2025 Program
+            </h2>
+            <p class="block font-sans text-base font-normal leading-relaxed text-white antialiased">
+              Explore the full schedule, speakers, and session details for this year’s Forum!
+            </p>
+          </div>
+        </div>
+        <div class="-!mt-4 p-6 pt-0 pl-[72px]">
+          <a target="_blank" href="https://dlfforum2025.sched.com/" class="flex select-none items-center gap-2 rounded-lg py-2 px-0 text-center align-middle font-sans text-xs font-bold uppercase text-white transition-all hover:bg-transparent active:bg-transparent disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
+            Program
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" aria-hidden="true" class="h-3 w-3">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
+            </svg>
+          </a>
         </div>
       </div>
-      <div class="-!mt-4 p-6 pt-0 pl-[72px]">
-        <a target="_blank" href="https://dlfforum2025.sched.com/" class="flex select-none items-center gap-2 rounded-lg py-2 px-0 text-center align-middle font-sans text-xs font-bold uppercase text-white transition-all hover:bg-transparent active:bg-transparent disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
-          Program
+      <div class="relative flex flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
+        <div class="flex items-start gap-4 p-6">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill="currentColor" aria-hidden="true" class="h-7 w-7 shrink-0 text-primary"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M64 64C28.7 64 0 92.7 0 128l0 64c0 8.8 7.4 15.7 15.7 18.6C34.5 217.1 48 235 48 256s-13.5 38.9-32.3 45.4C7.4 304.3 0 311.2 0 320l0 64c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-64c0-8.8-7.4-15.7-15.7-18.6C541.5 294.9 528 277 528 256s13.5-38.9 32.3-45.4c8.3-2.9 15.7-9.8 15.7-18.6l0-64c0-35.3-28.7-64-64-64L64 64zm64 112l0 160c0 8.8 7.2 16 16 16l288 0c8.8 0 16-7.2 16-16l0-160c0-8.8-7.2-16-16-16l-288 0c-8.8 0-16 7.2-16 16zM96 160c0-17.7 14.3-32 32-32l320 0c17.7 0 32 14.3 32 32l0 192c0 17.7-14.3 32-32 32l-320 0c-17.7 0-32-14.3-32-32l0-192z"/></svg>
+          {# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-7 w-7 shrink-0 text-primary">
+            <path fill-rule="evenodd" d="M4.5 9.75a6 6 0 0111.573-2.226 3.75 3.75 0 014.133 4.303A4.5 4.5 0 0118 20.25H6.75a5.25 5.25 0 01-2.23-10.004 6.072 6.072 0 01-.02-.496z" clip-rule="evenodd"></path>
+          </svg> #}
+          <div class="grid">
+            <h2 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+              Registration is open!
+            </h2>
+            <p class="block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
+              Registration for Forum 2025 is now open—secure your spot today and take advantage of <strong>early bird pricing</strong> before it ends on <strong>August 14, 2025</strong>!
+            </p>
+          </div>
+        </div>
+        <div class="-!mt-4 p-6 pt-0 pl-[72px]">
+          <a href="/registration/" class="flex select-none items-center gap-2 rounded-lg py-2 px-0 text-center align-middle font-sans text-xs font-bold uppercase text-gray-900 transition-all hover:bg-transparent active:bg-transparent disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+          Register 
+          
+          
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" aria-hidden="true" class="h-3 w-3">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
-          </svg>
-        </a>
-      </div>
-    </div>
-    <div class="relative flex flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
-      <div class="flex items-start gap-4 p-6">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill="currentColor" aria-hidden="true" class="h-7 w-7 shrink-0 text-primary"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M64 64C28.7 64 0 92.7 0 128l0 64c0 8.8 7.4 15.7 15.7 18.6C34.5 217.1 48 235 48 256s-13.5 38.9-32.3 45.4C7.4 304.3 0 311.2 0 320l0 64c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-64c0-8.8-7.4-15.7-15.7-18.6C541.5 294.9 528 277 528 256s13.5-38.9 32.3-45.4c8.3-2.9 15.7-9.8 15.7-18.6l0-64c0-35.3-28.7-64-64-64L64 64zm64 112l0 160c0 8.8 7.2 16 16 16l288 0c8.8 0 16-7.2 16-16l0-160c0-8.8-7.2-16-16-16l-288 0c-8.8 0-16 7.2-16 16zM96 160c0-17.7 14.3-32 32-32l320 0c17.7 0 32 14.3 32 32l0 192c0 17.7-14.3 32-32 32l-320 0c-17.7 0-32-14.3-32-32l0-192z"/></svg>
-        {# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-7 w-7 shrink-0 text-primary">
-          <path fill-rule="evenodd" d="M4.5 9.75a6 6 0 0111.573-2.226 3.75 3.75 0 014.133 4.303A4.5 4.5 0 0118 20.25H6.75a5.25 5.25 0 01-2.23-10.004 6.072 6.072 0 01-.02-.496z" clip-rule="evenodd"></path>
-        </svg> #}
-        <div class="grid">
-          <h2 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-            Registration is open!
-          </h2>
-          <p class="block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
-            Registration for Forum 2025 is now open—secure your spot today and take advantage of <strong>early bird pricing</strong> before it ends on <strong>August 14, 2025</strong>!
-          </p>
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
+            </svg>
+          </a>
         </div>
       </div>
-      <div class="-!mt-4 p-6 pt-0 pl-[72px]">
-        <a href="/registration/" class="flex select-none items-center gap-2 rounded-lg py-2 px-0 text-center align-middle font-sans text-xs font-bold uppercase text-gray-900 transition-all hover:bg-transparent active:bg-transparent disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
-         Register 
-         
-         
-         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" aria-hidden="true" class="h-3 w-3">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
-          </svg>
-        </a>
-      </div>
-    </div>
-    <div class="relative flex flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
-      <div class="flex items-start gap-4 p-6">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" aria-hidden="true" class="h-7 w-7 shrink-0 text-primary"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M96 96c0-35.3 28.7-64 64-64l288 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L80 480c-44.2 0-80-35.8-80-80L0 128c0-17.7 14.3-32 32-32s32 14.3 32 32l0 272c0 8.8 7.2 16 16 16s16-7.2 16-16L96 96zm64 24l0 80c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24l0-80c0-13.3-10.7-24-24-24L184 96c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16z"/></svg>
-        {# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-7 w-7 shrink-0 text-primary">
-          <path fill-rule="evenodd" d="M4.5 9.75a6 6 0 0111.573-2.226 3.75 3.75 0 014.133 4.303A4.5 4.5 0 0118 20.25H6.75a5.25 5.25 0 01-2.23-10.004 6.072 6.072 0 01-.02-.496z" clip-rule="evenodd"></path>
-        </svg> #}
-        <div class="grid">
-          <h2 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-            DLF Forum News
-          </h2>
-          <p class="block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
-            Sign up for our newsletter to hear the DLF Forum news first.
-          </p>
+      <div class="relative flex flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
+        <div class="flex items-start gap-4 p-6">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" aria-hidden="true" class="h-7 w-7 shrink-0 text-primary"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M96 96c0-35.3 28.7-64 64-64l288 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L80 480c-44.2 0-80-35.8-80-80L0 128c0-17.7 14.3-32 32-32s32 14.3 32 32l0 272c0 8.8 7.2 16 16 16s16-7.2 16-16L96 96zm64 24l0 80c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24l0-80c0-13.3-10.7-24-24-24L184 96c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16z"/></svg>
+          {# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-7 w-7 shrink-0 text-primary">
+            <path fill-rule="evenodd" d="M4.5 9.75a6 6 0 0111.573-2.226 3.75 3.75 0 014.133 4.303A4.5 4.5 0 0118 20.25H6.75a5.25 5.25 0 01-2.23-10.004 6.072 6.072 0 01-.02-.496z" clip-rule="evenodd"></path>
+          </svg> #}
+          <div class="grid">
+            <h2 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+              DLF Forum News
+            </h2>
+            <p class="block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
+              Sign up for our newsletter to hear the DLF Forum news first.
+            </p>
+          </div>
+        </div>
+        <div class="-!mt-4 p-6 pt-0 pl-[72px]">
+          <a href="https://share.hsforms.com/1MhcafbpARxGCIS1OQD6rKgc21y3" rel="noopener noreferrer" target="_blank" class="flex select-none items-center gap-2 rounded-lg py-2 px-0 text-center align-middle font-sans text-xs font-bold uppercase text-gray-900 transition-all hover:bg-transparent active:bg-transparent disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+            Join our mailing list <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" aria-hidden="true" class="h-3 w-3">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
+            </svg>
+          </a>
         </div>
       </div>
-      <div class="-!mt-4 p-6 pt-0 pl-[72px]">
-        <a href="https://share.hsforms.com/1MhcafbpARxGCIS1OQD6rKgc21y3" rel="noopener noreferrer" target="_blank" class="flex select-none items-center gap-2 rounded-lg py-2 px-0 text-center align-middle font-sans text-xs font-bold uppercase text-gray-900 transition-all hover:bg-transparent active:bg-transparent disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
-          Join our mailing list <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" aria-hidden="true" class="h-3 w-3">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
-          </svg>
-        </a>
-      </div>
-    </div>
-    
-    
-    {# <div class="relative flex flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
-      <div class="flex items-start gap-4 p-6">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="currentColor"
-          aria-hidden="true"
-          class="h-7 w-7 shrink-0 text-primary"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M15.75 4.5a3 3 0 11.825 2.066l-8.421 4.679a3.002 3.002 0 010 1.51l8.421 4.679a3 3 0 11-.729 1.31l-8.421-4.678a3 3 0 110-4.132l8.421-4.679a3 3 0 01-.096-.755z"
-            clip-rule="evenodd"
-          ></path>
-        </svg>
-        <div class="grid">
-          <h2
-            class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased"
+      
+      
+      {# <div class="relative flex flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
+        <div class="flex items-start gap-4 p-6">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+            class="h-7 w-7 shrink-0 text-primary"
           >
-            Working Groups
-          </h2>
-          <p
-            class="block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased"
-          >
-            DLF is built for grassroots action. A committed community gravitates to us from within and beyond DLF's institutional membership, working across boundaries of many kinds and making the Digital Library Federation a force for good.
-          </p>
-        </div>
-      </div>
-      <div class="-!mt-4 p-6 pt-0 pl-[72px]">
-        <a href="https://www.diglib.org/groups/" rel="noopener noreferrer"
-          target="_blank"
-          class="flex select-none items-center gap-2 rounded-lg py-2 px-0 text-center align-middle font-sans text-xs font-bold uppercase text-gray-900 transition-all hover:bg-transparent active:bg-transparent disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-          type="button"
-        >
-          more about our groups
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" aria-hidden="true" class="h-3 w-3">
-            <path d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
+            <path
+              fill-rule="evenodd"
+              d="M15.75 4.5a3 3 0 11.825 2.066l-8.421 4.679a3.002 3.002 0 010 1.51l8.421 4.679a3 3 0 11-.729 1.31l-8.421-4.678a3 3 0 110-4.132l8.421-4.679a3 3 0 01-.096-.755z"
+              clip-rule="evenodd"
+            ></path>
           </svg>
-        </a>
-      </div>
-    </div>  #}
+          <div class="grid">
+            <h2
+              class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased"
+            >
+              Working Groups
+            </h2>
+            <p
+              class="block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased"
+            >
+              DLF is built for grassroots action. A committed community gravitates to us from within and beyond DLF's institutional membership, working across boundaries of many kinds and making the Digital Library Federation a force for good.
+            </p>
+          </div>
+        </div>
+        <div class="-!mt-4 p-6 pt-0 pl-[72px]">
+          <a href="https://www.diglib.org/groups/" rel="noopener noreferrer"
+            target="_blank"
+            class="flex select-none items-center gap-2 rounded-lg py-2 px-0 text-center align-middle font-sans text-xs font-bold uppercase text-gray-900 transition-all hover:bg-transparent active:bg-transparent disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            type="button"
+          >
+            more about our groups
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" aria-hidden="true" class="h-3 w-3">
+              <path d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
+            </svg>
+          </a>
+        </div>
+      </div>  #}
+    </div>
   </div>
-</div>
 
-{% include "about-event2.njk" %}
-{% include "landing-page-posts.njk" %}
+  {% include "about-event2.njk" %}
+  {% include "landing-page-posts.njk" %}
+</main>
 {# {% include "testimonials.njk" %} #}
 {# {%# include "full-page-home.njk" %} #}
 {# {%# include "sponsors.njk" %} #}

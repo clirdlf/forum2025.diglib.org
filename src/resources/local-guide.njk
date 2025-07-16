@@ -9,7 +9,7 @@ eleventyNavigation:
   parent: Resources
 ---
 
-<div id="local-guide-page" class="max-w-7xl mx-auto p-6 space-y-16">
+<div aria-labelledby="interactive-map" id="local-guide-page" class="max-w-7xl mx-auto p-6 space-y-16">
   {# Google Map Embed #}
   <section id="map">
     <h1 class="text-4xl font-bold text-blue-gray-900 mb-6">🧭 Interactive Map</h1>
@@ -25,7 +25,7 @@ eleventyNavigation:
   </section>
 
   {# search #}
-  <section class="sticky top-0 bg-white shadow-md rounded-md z-50 p-6 space-y-4 mt-10">
+  <section aria-labelledby="denver-local-guide" class="sticky top-0 bg-white shadow-md rounded-md z-50 p-6 space-y-4 mt-10">
       <div class="max-w-7xl mx-auto flex flex-col items-center text-center space-y-2">
         <h1 class="text-3xl font-extrabold">{{ title or "Denver Local Guide" }}</h1>
         <nav class="space-x-4 text-blue-700">
@@ -47,7 +47,7 @@ eleventyNavigation:
       </div>
     </section>
 
-  <section class="max-w-7xl mx-auto p-6 mt-4">
+  <section aria-labelledby="community-business-resources" class="max-w-7xl mx-auto p-6 mt-4">
     <h2 class="text-xl font-semibold mb-2">Community Business Resources</h2>
     <ul class="list-disc list-inside">
       <li>

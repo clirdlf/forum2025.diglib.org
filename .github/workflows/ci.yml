@@ -21,12 +21,15 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+        working-directory: forum2025.diglib.org
 
       - name: Lint (ESLint, Stylelint, HTML-Validate)
         run: pnpm lint
+        working-directory: forum2025.diglib.org
 
       - name: Check code formatting
         run: pnpm format:check
+        working-directory: forum2025.diglib.org
 
       - name: Build site
         run: pnpm build

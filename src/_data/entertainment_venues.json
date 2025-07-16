@@ -33,10 +33,7 @@
     "distance": "0.8 mi (5 min drive, 19 min walk)",
     "accessibility": [],
     "url": "https://www.thepearldenver.com/",
-    "tags": [
-      "bar",
-      "queer"
-    ]
+    "tags": ["bar", "queer"]
   },
   {
     "name": "RISE Comedy",
@@ -53,15 +50,8 @@
     "notes": "One of the nation\u2019s largest nonprofit theater organizations.",
     "distance": "0.4 mi (2 min drive, 9 min walk)",
     "url": "https://www.denvercenter.org/",
-    "accessibility": [
-      "wheelchair",
-      "ada",
-      "gender-neutral"
-    ],
-    "tags": [
-      "theater",
-      "broadway"
-    ]
+    "accessibility": ["wheelchair", "ada", "gender-neutral"],
+    "tags": ["theater", "broadway"]
   },
   {
     "name": "Curious Theatre Company",
@@ -88,9 +78,7 @@
     "distance": "11.6 mi (21 min drive)",
     "accessibility": [],
     "url": "https://arvadacenter.org/",
-    "tags": [
-      "performing-arts"
-    ]
+    "tags": ["performing-arts"]
   },
   {
     "name": "Mission Ballroom",
@@ -108,9 +96,7 @@
     "distance": "2.8 mi (12 min drive, 33 min bus)",
     "accessibility": [],
     "url": "https://www.bluebirdtheater.net/",
-    "tags": [
-      "music"
-    ]
+    "tags": ["music"]
   },
   {
     "name": "Fillmore Auditorium",
@@ -128,11 +114,7 @@
     "distance": "0.7 mi (15 min walk)",
     "accessibility": [],
     "url": "https://www.ballarena.com/",
-    "tags": [
-      "arena",
-      "sports",
-      "music"
-    ]
+    "tags": ["arena", "sports", "music"]
   },
   {
     "name": "Summit Music Hall",
@@ -150,9 +132,7 @@
     "distance": "0.4 mi (10 min walk)",
     "accessibility": [],
     "url": "https://www.marquisdenver.com/",
-    "tags": [
-      "music"
-    ]
+    "tags": ["music"]
   },
   {
     "name": "Dazzle",
@@ -161,10 +141,7 @@
     "distance": "0.3 mi (8 min walk)",
     "accessibility": [],
     "url": "https://dazzledenver.com/",
-    "tags": [
-      "jazz",
-      "music"
-    ]
+    "tags": ["jazz", "music"]
   },
   {
     "name": "Ophelia\u2019s Electric Soapbox",
@@ -173,10 +150,7 @@
     "distance": "0.3 mi (8 min walk)",
     "accessibility": [],
     "url": "https://opheliasdenver.com/",
-    "tags": [
-      "music",
-      "restaurant"
-    ]
+    "tags": ["music", "restaurant"]
   },
   {
     "name": "Black Buzzard",
@@ -185,10 +159,7 @@
     "distance": "0.2 mi (5 min walk)",
     "accessibility": [],
     "url": "https://www.theblackbuzzard.com/event-calendar/",
-    "tags": [
-      "bar",
-      "music"
-    ]
+    "tags": ["bar", "music"]
   },
   {
     "name": "Cervantes\u2019 Masterpiece Ballroom",
@@ -197,9 +168,7 @@
     "distance": "1.3 mi (30 min walk)",
     "accessibility": [],
     "url": "https://cervantesmasterpiece.com/",
-    "tags": [
-      "music"
-    ]
+    "tags": ["music"]
   },
   {
     "name": "Nocturne Jazz and Supper Club",
@@ -216,9 +185,7 @@
     "notes": "Alternative bands in east downtown venue.",
     "distance": "1.0 mi (24 min walk)",
     "accessibility": [],
-    "tags": [
-      "music"
-    ]
+    "tags": ["music"]
   },
   {
     "name": "Ogden Theatre",
@@ -226,9 +193,7 @@
     "notes": "Diverse live music programming.",
     "distance": "1.5 mi (37 min walk)",
     "accessibility": [],
-    "tags": [
-      "music"
-    ]
+    "tags": ["music"]
   },
   {
     "name": "Black Box",
@@ -236,23 +201,15 @@
     "notes": "DJ dance club with full bar and patio.",
     "distance": "1.3 mi (32 min walk)",
     "accessibility": [],
-    "tags": [
-      "dance",
-      "club"
-    ]
+    "tags": ["dance", "club"]
   },
   {
     "name": "REI Flagship Store",
     "address": "1416 Platte Street, Denver, CO 80202",
     "notes": "Outdoor gear store in historic tramway building.",
     "distance": "1.3 mi (26 min walk)",
-    "accessibility": [
-      "wheelchair"
-    ],
-    "tags": [
-      "retail",
-      "outdoor"
-    ]
+    "accessibility": ["wheelchair"],
+    "tags": ["retail", "outdoor"]
   },
   {
     "name": "Cherry Creek Trail",
@@ -260,10 +217,7 @@
     "notes": "42-mile paved trail from Downtown Denver to Franktown, passing major city landmarks and parks.",
     "distance": "",
     "accessibility": [],
-    "tags": [
-      "trail",
-      "outdoor"
-    ]
+    "tags": ["trail", "outdoor"]
   },
   {
     "name": "Trails of Denver",

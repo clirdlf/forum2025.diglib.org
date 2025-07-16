@@ -1,54 +1,53 @@
 [
-    {
-        "benefits": [
-            "Logo on conference website",
-            "Acknowledgement from the podium during plenary session(s) and logo on slides",
-            "One public mention / thank-you on CLIR and DLF LinkedIn pages (4,000 followers)",
-            "Logo on emails to up to 500 registered attendees"
-        ],
-        "level": "Bronze",
-        "color": "amber-900",
-        "description": "",
-        "cost": 1000
-    },
-    {
-        "benefits": [
-        "Link and organization description (along with logo) on conference website",
-        "Exhibit table at conference reception and in exhibit hall"
-        ],
-        "level": "Silver",
-        "color": "gray-500",
-        "cost": 2500,
-        "description": "In addition to all Bronze benefits, Silver sponsorship includes"
-    },
-    {
-        "benefits": [
-        "Link and organization description (along with logo) on conference website",
-        "Opted-in attendee email addresses (typically up to 250 people)",
-        "One (1) complimentary tickets to the DLF Forum for your team ($800 value)",
-        "Named sponsor of one conference breakfast or lunch with name, logo, and QR code on two 24” x 36” signs to be on display during the meal",
-        "Exhibit table at conference reception and in exhibit hall"
-        ],
-        "level": "Gold",
-        "color": "yellow-400",
-        "cost": 5000,
-        "description": "In addition to all Bronze benefits, Gold sponsorship includes"
-
-    },
-    {
-        "benefits": [
-        "Link and organization description (along with logo) on conference website",
-        "One additional public mention / thank-you on CLIR and DLF LinkedIn pages (4,000 followers)",
-        "Opted-in attendee email addresses (typically up to 250 people)",
-        "One <a class='underline' href='#sponsor-emails'>“From Our Partner”</a> email sent to Forum newsletter list (up to 2,900 people)",
-        "One <a class='underline' href='#sponsor-emails'>“From Our Partner”</a> email sent to attendees (up to 500 people)",
-        "Two (2) complimentary tickets to the DLF Forum for your team ($1,600 value)",
-        "Named sponsor of the conference reception with name, logo, and QR code on two 24” x 36” signs to be on display during the event",
-        "Exhibit table at conference reception and in exhibit hall"
-        ],
-        "level": "Platinum",
-        "color": "sky-400",
-        "cost": 6500,
-        "description": "In addition to all Gold benefits, Platinum sponsorship includes"
-    }
+  {
+    "benefits": [
+      "Logo on conference website",
+      "Acknowledgement from the podium during plenary session(s) and logo on slides",
+      "One public mention / thank-you on CLIR and DLF LinkedIn pages (4,000 followers)",
+      "Logo on emails to up to 500 registered attendees"
+    ],
+    "level": "Bronze",
+    "color": "amber-900",
+    "description": "",
+    "cost": 1000
+  },
+  {
+    "benefits": [
+      "Link and organization description (along with logo) on conference website",
+      "Exhibit table at conference reception and in exhibit hall"
+    ],
+    "level": "Silver",
+    "color": "gray-500",
+    "cost": 2500,
+    "description": "In addition to all Bronze benefits, Silver sponsorship includes"
+  },
+  {
+    "benefits": [
+      "Link and organization description (along with logo) on conference website",
+      "Opted-in attendee email addresses (typically up to 250 people)",
+      "One (1) complimentary tickets to the DLF Forum for your team ($800 value)",
+      "Named sponsor of one conference breakfast or lunch with name, logo, and QR code on two 24” x 36” signs to be on display during the meal",
+      "Exhibit table at conference reception and in exhibit hall"
+    ],
+    "level": "Gold",
+    "color": "yellow-400",
+    "cost": 5000,
+    "description": "In addition to all Bronze benefits, Gold sponsorship includes"
+  },
+  {
+    "benefits": [
+      "Link and organization description (along with logo) on conference website",
+      "One additional public mention / thank-you on CLIR and DLF LinkedIn pages (4,000 followers)",
+      "Opted-in attendee email addresses (typically up to 250 people)",
+      "One <a class='underline' href='#sponsor-emails'>“From Our Partner”</a> email sent to Forum newsletter list (up to 2,900 people)",
+      "One <a class='underline' href='#sponsor-emails'>“From Our Partner”</a> email sent to attendees (up to 500 people)",
+      "Two (2) complimentary tickets to the DLF Forum for your team ($1,600 value)",
+      "Named sponsor of the conference reception with name, logo, and QR code on two 24” x 36” signs to be on display during the event",
+      "Exhibit table at conference reception and in exhibit hall"
+    ],
+    "level": "Platinum",
+    "color": "sky-400",
+    "cost": 6500,
+    "description": "In addition to all Gold benefits, Platinum sponsorship includes"
+  }
 ]

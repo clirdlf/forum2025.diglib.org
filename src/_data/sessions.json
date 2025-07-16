@@ -29,9 +29,7 @@
     "title": "Evolving Roles and Tools: Navigating the Future of Project Management in Digital Libraries",
     "time": "9:00am - 12:15pm",
     "date": "2025-11-16",
-    "authors": [
-      { "name": "Cari Lovins", "affiliation": "Emory University Libraries and Museum" }
-    ],
+    "authors": [{ "name": "Cari Lovins", "affiliation": "Emory University Libraries and Museum" }],
     "abstract": "As digital library work grows in complexity, so must our approaches to managing it. This workshop will explore the evolving landscape of project management in the digital library space, including incorporating AI tools, adapting to economic constraints, and transitioning from traditional project management to broader program and service management roles."
   },
   {
@@ -41,7 +39,8 @@
     "date": "2025-11-16",
     "authors": [
       { "name": "Jack Devry Riordan", "affiliation": "AVAnnotate" },
-      { "name": "Ben Brumfield", "affiliation": "AVAnnotate" }    ],
+      { "name": "Ben Brumfield", "affiliation": "AVAnnotate" }
+    ],
     "abstract": "This 3-hour workshop introduces AVAnnotate, an open-source tool for creating annotated audiovisual exhibits. Participants will learn to use IIIF manifests, annotate AV content, and publish exhibits via GitHub Pages, enhancing the discoverability of AV archives. Hands-on training and discussion target librarians and researchers. No prior experience is required."
   },
   {

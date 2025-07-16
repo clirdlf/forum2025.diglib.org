@@ -3,16 +3,16 @@
  */
 export default [
   {
-    ignores: ["**/node_modules/**", "**/_site/**"],
+    ignores: ['**/node_modules/**', '**/_site/**'],
   },
   {
-    files: ["**/*.js"],
+    files: ['**/*.js'],
     languageOptions: {
-      parserOptions: { ecmaVersion: "latest", sourceType: "module" },
+      parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
     },
     rules: {
-      "no-console": "warn",
-      "no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
+      'no-console': 'warn',
+      'no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
     },
   },
 ];

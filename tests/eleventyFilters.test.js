@@ -16,7 +16,9 @@ async function getFilters() {
     addWatchTarget: () => {},
     addPlugin: () => {},
     addCollection: () => {},
-    addFilter: (name, fn) => { filters[name] = fn; },
+    addFilter: (name, fn) => {
+      filters[name] = fn;
+    },
     getFilter: (n) => (n === 'slugify' ? (s) => s : undefined),
     setTemplateFormats: () => {},
   };

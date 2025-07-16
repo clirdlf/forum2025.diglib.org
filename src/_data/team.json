@@ -1,32 +1,32 @@
 [
-    {
-        "name": "Aliya Reich",
-        "role": "Program Manager for Conferences &amp; Events",
-        "image": "static/CLIRM-166-scaled.jpg"
-    },
-    {
-        "name": "Lizzi Albert",
-        "role": "Community Relations Manager, CLIR",
-        "image": "static/Lizzi-Albert.jpg"
-    },
-    {
-        "name": "Julie Beroukas Snyder",
-        "role": "Chief Development Officer, CLIR",
-        "image": "static/Julie.jpg"
-    },
-    {
-        "name": "Alice Rubin",
-        "role": "Program Officer, Strategic Initiatives",
-        "image": "static/Alice.jpg"
-    },
-    {
-        "name": "Jenn Cummings",
-        "role": "CONCENTRA-CMS",
-        "image": "static/jenn.jpg"
-    },
-    {
-        "name": "Wayne Graham",
-        "role": "Interim Director, DLF",
-        "image": "static/Wayne.jpg"
-    }
+  {
+    "name": "Aliya Reich",
+    "role": "Program Manager for Conferences &amp; Events",
+    "image": "static/CLIRM-166-scaled.jpg"
+  },
+  {
+    "name": "Lizzi Albert",
+    "role": "Community Relations Manager, CLIR",
+    "image": "static/Lizzi-Albert.jpg"
+  },
+  {
+    "name": "Julie Beroukas Snyder",
+    "role": "Chief Development Officer, CLIR",
+    "image": "static/Julie.jpg"
+  },
+  {
+    "name": "Alice Rubin",
+    "role": "Program Officer, Strategic Initiatives",
+    "image": "static/Alice.jpg"
+  },
+  {
+    "name": "Jenn Cummings",
+    "role": "CONCENTRA-CMS",
+    "image": "static/jenn.jpg"
+  },
+  {
+    "name": "Wayne Graham",
+    "role": "Interim Director, DLF",
+    "image": "static/Wayne.jpg"
+  }
 ]

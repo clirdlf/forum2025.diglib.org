@@ -3,8 +3,8 @@
 @config '../../tailwind.config.js';
 
 @layer components {
-  #btn-back-to-top { 
-    @apply fixed! bottom-5 end-5 hidden rounded-full bg-blue-700 p-3 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-blue-800 hover:shadow-lg focus:bg-blue-800 focus:shadow-lg focus:outline-hidden focus:ring-0 active:bg-blue-700 active:shadow-lg
+  #btn-back-to-top {
+    @apply fixed! end-5 bottom-5 hidden rounded-full bg-blue-700 p-3 text-xs leading-tight font-medium text-white uppercase shadow-md transition duration-150 ease-in-out hover:bg-blue-800 hover:shadow-lg focus:bg-blue-800 focus:shadow-lg focus:ring-0 focus:outline-hidden active:bg-blue-700 active:shadow-lg;
   }
 }
 
@@ -28,7 +28,7 @@
 
 html {
   scroll-behavior: smooth;
-  
+
   /* scroll-padding-top: 15rem;  */
 }
 

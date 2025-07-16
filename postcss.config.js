@@ -3,9 +3,9 @@ module.exports = ({ env }) => ({
     'postcss-nested': {},
     '@tailwindcss/postcss': {},
     cssnano:
-      env === "production"
+      env === 'production'
         ? {
-            preset: ["default", { discardComments: { removeAll: true } }],
+            preset: ['default', { discardComments: { removeAll: true } }],
           }
         : false,
   },

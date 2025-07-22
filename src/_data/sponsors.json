@@ -10,17 +10,6 @@
     "url": "https://www.ithaka.org/",
     "logo": "/static/sponsors/ithaka.svg",
     "level": "Silver"
-  },
-  {
-    "name": "AM Quartex",
-    "url": "https://www.amdigital.co.uk/",
-    "logo": "/static/sponsors/am-quartex.svg",
-    "level": "Fellowships"
-  },
-  {
-    "name": "MetaArchive",
-    "url": "",
-    "logo": "/static/metaArchive.png",
-    "level": "Fellowships"
   }
+
 ]

@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const levels = ['Platinum', 'Gold', 'Silver', 'Bronze'];
+const levels = ['Platinum', 'Gold', 'Silver', 'Bronze', 'Fellowships'];
 
 module.exports = function () {
   const sponsors = require('./sponsors.json');

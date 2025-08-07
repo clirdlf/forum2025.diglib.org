@@ -13,7 +13,7 @@ for image in "$IMAGE_DIR"/*.{jpg,png,jpeg}; do
     [ -e "$image" ] || continue
     
     # Get the dimensions of the image
-    read width height < <(identify -format "%w %h" "$image")
+    read width height <<(identify -format "%w %h" "$image")
 
     # Check if the image exceeds the max dimensions
     if [[ $width -gt $MAX_WIDTH || $height -gt $MAX_HEIGHT ]]; then

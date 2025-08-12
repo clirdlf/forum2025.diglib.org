@@ -35,13 +35,14 @@ eleventyNavigation:
     We are deeply grateful to our sponsors for their generous support of the DLF Forum.
   </p>
 
-  {% for group in sponsorsByLevel %}
-    <div class="mb-12">
-      <h2 class="text-2xl font-semibold mb-6 text-gray-800">{{ group.level }} Sponsors</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-center">
-        {% if group.sponsors.length %}
-          {% for sponsor in group.sponsors %}
-            <a href="{{ sponsor.url }}" target="_blank" aria-label="Read more about {{ sponsor.name }}" rel="noopener noreferrer" class="flex justify-center">
+{% for group in sponsorsByLevel %}
+  <div class="mb-12">
+    <h2 class="text-2xl font-semibold mb-6 text-gray-800">{{ group.level }} Sponsors</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      {% if group.sponsors.length %}
+        {% for sponsor in group.sponsors %}
+          <div class="border border-gray-200 rounded-lg shadow-sm p-6 flex flex-col items-center text-center bg-white hover:shadow-md transition-shadow duration-300">
+            <a href="{{ sponsor.url }}" target="_blank" aria-label="Read more about {{ sponsor.name }}" rel="noopener noreferrer" class="flex justify-center mb-4">
               {% if sponsor.isSvg %}
                 <div class="{% if group.level == 'Platinum' %}w-72{% else %}w-52{% endif %} h-auto [&>svg]:w-full [&>svg]:h-auto [&>svg]:object-contain">
                   {{ sponsor.svg | safe }}
@@ -50,17 +51,21 @@ eleventyNavigation:
                 <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" class="{% if group.level == 'Platinum' %}w-72{% else %}w-52{% endif %} h-auto object-contain"/>
               {% endif %}
             </a>
-          {% endfor %}
-        {% else %}
-          <p class="text-center text-gray-700 col-span-full">
-            <a href="/sponsorship/prospectus/" class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-sm py-3.5 px-7 rounded-lg bg-blue-800 text-white shadow-md shadow-blue-800/10 hover:shadow-lg hover:shadow-blue-800/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none bg-blue-800" type="button" data-ripple-light="true">
-              Become a {{ group.level }} Sponsor
-            </a>
-          </p>
-        {% endif %}
-      </div>
+            {% if sponsor.info %}
+              <p class="text-sm text-gray-700">{{ sponsor.info }}</p>
+            {% endif %}
+          </div>
+        {% endfor %}
+      {% else %}
+        <p class="text-center text-gray-700 col-span-full">
+          <a href="/sponsorship/prospectus/" class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-sm py-3.5 px-7 rounded-lg bg-blue-800 text-white shadow-md shadow-blue-800/10 hover:shadow-lg hover:shadow-blue-800/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none bg-blue-800" type="button" data-ripple-light="true">
+            Become a {{ group.level }} Sponsor
+          </a>
+        </p>
+      {% endif %}
     </div>
-  {% endfor %}
+  </div>
+{% endfor %}
 </section>
 
 {# 

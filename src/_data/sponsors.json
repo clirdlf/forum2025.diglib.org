@@ -2,6 +2,7 @@
   {
     "name": "AM Quartex",
     "url": "https://www.amdigital.co.uk/",
+    "info": "AM's digital collections and technology platforms enrich the study, research and teaching of primary sources. AM works with libraries, archives and heritage institutions to digitise the world's historical and cultural knowledge. Developed to present AM's own primary source collections, Quartex helps customers bring archival materials to life.",
     "logo": "/static/sponsors/am-quartex.svg",
     "level": "Platinum"
   },
@@ -9,6 +10,7 @@
     "name": "ITHAKA",
     "url": "https://www.ithaka.org/",
     "logo": "/static/sponsors/ithaka.svg",
-    "level": "Silver"
+    "level": "Silver",
+    "info": ""
   }
 ]

@@ -7,10 +7,24 @@
     "level": "Platinum"
   },
   {
-    "name": "ITHAKA",
-    "url": "https://www.ithaka.org/",
-    "logo": "/static/sponsors/ithaka.svg",
+    "name": "JSTOR",
+    "url": "https://about.jstor.org/",
+    "logo": "/static/sponsors/jstor.svg",
     "level": "Silver",
-    "info": ""
+    "info": "Collection stewardship is increasingly complex, requiring institutions to juggle preservation, digital asset management, description and metadata creation, and access with limited resources. JSTOR Digital Stewardship Services solves these common collection management challenges. Developed in collaboration with librarians and archivists, JDSS integrates your digital assets, with AI-powered processing support, for increased discovery and long-term preservation, including sharing on JSTOR."
+  },
+  {
+    "name": "AM Quartex",
+    "url": "https://www.amdigital.co.uk/",
+    "info": "",
+    "logo": "/static/sponsors/am-quartex.svg",
+    "level": "Fellowships"
+  },
+  {
+    "name": "MetaArchive",
+    "url": "https://educopia.org/sponsee-profile/metaarchive-cooperative/",
+    "info": "",
+    "logo": "/static/metaArchive.png",
+    "level": "Fellowships"
   }
 ]

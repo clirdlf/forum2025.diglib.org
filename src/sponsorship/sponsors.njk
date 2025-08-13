@@ -44,11 +44,11 @@ eleventyNavigation:
           <div class="border border-gray-200 rounded-lg shadow-sm p-6 flex flex-col items-center text-center bg-white hover:shadow-md transition-shadow duration-300">
             <a href="{{ sponsor.url }}" target="_blank" aria-label="Read more about {{ sponsor.name }}" rel="noopener noreferrer" class="flex justify-center mb-4">
               {% if sponsor.isSvg %}
-                <div class="{% if group.level == 'Platinum' %}w-80{% else %}w-52{% endif %} h-auto [&>svg]:w-full [&>svg]:h-auto [&>svg]:object-contain">
+                <div class="{% if group.level == 'Platinum' %}w-72{% else %}w-52{% endif %} h-auto [&>svg]:w-full [&>svg]:h-auto [&>svg]:object-contain">
                   {{ sponsor.svg | safe }}
                 </div>
               {% else %}
-                <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" class="{% if group.level == 'Platinum' %}w-80{% else %}w-52{% endif %} h-auto object-contain"/>
+                <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" class="{% if group.level == 'Platinum' %}w-72{% else %}w-52{% endif %} h-auto object-contain"/>
               {% endif %}
             </a>
             {% if sponsor.info %}

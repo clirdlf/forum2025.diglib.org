@@ -7,6 +7,13 @@
     "level": "Platinum"
   },
   {
+    "name": "Digital Scholar",
+    "url": "https://digitalscholar.org",
+    "info": "Committed to the responsible stewardship of critical open-source infrastructure for the digital humanities, Digital Scholar sustains a growing family of software projects, including Omeka, Zotero, Tropy, PressForward, and Sourcery.",
+    "logo": "/static/sponsors/digital-scholar-logo.svg",
+    "level": "Platinum"
+  },
+  {
     "name": "JSTOR",
     "url": "https://about.jstor.org/",
     "logo": "/static/sponsors/jstor.svg",

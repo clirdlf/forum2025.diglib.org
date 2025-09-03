@@ -39,7 +39,7 @@
     "@11ty/eleventy-img": "^6.0.4",
     "@tailwindcss/postcss": "^4.1.11",
     "cross-env": "^7.0.3",
-    "cssnano": "^7.1.0",
+    "cssnano": "^7.1.1",
     "eslint": "^9.33.0",
     "glob": "^11.0.3",
     "html-minifier-terser": "^7.2.0",

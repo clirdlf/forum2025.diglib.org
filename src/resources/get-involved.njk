@@ -1,0 +1,134 @@
+---
+layout: dashboard.njk
+title: Get Involved with Networking Opportunities
+description: Essential resources and expectations for a safe, inclusive, and engaging experience at the 2025 DLF Forum.
+draft: false
+eleventyNavigation:
+  key: Get Involved
+  parent: Resources
+---
+
+{% set localGuideUrl = localGuideUrl or '/resources/local-guide/' %}
+{% set dinearoundSheetUrl = dinearoundSheetUrl or 'https://docs.google.com/spreadsheets/d/18NMvDI0NLa0tEXmS4JKOHcQyr4y8hMDYgKysi8TxOyY/edit?usp=sharing' %}
+{% set contactEmail = 'dlfforum@concntra-cms.com' %}
+
+<section class="mx-auto max-w-5xl space-y-8">
+    <!-- Intro Card -->
+    <header class="rounded-2xl border bg-white p-6 shadow-sm">
+        <h1 class="text-2xl md:text-3xl font-semibold tracking-tight">Get Involved with Networking Opportunities</h1>
+        <p class="mt-3 text-sm md:text-base text-gray-600">Looking to make the most of your conference experience? Join us for fun and meaningful activities where you’ll connect with fellow attendees, explore the local area, and recharge outside of sessions. From casual meetups to creative outings, these activities are a great way to build lasting connections. Interested in leading an activity? Explore the options below or reach out to <a class="underline decoration-gray-300 underline-offset-4 hover:decoration-gray-600" href="mailto:{{ contactEmail }}">{{ contactEmail }}</a> with questions or ideas.</p>
+    </header>
+
+    <!-- Quick Nav -->
+    <nav aria-label="On this page" class="rounded-2xl border bg-white p-4 shadow-sm">
+        <h2 class="sr-only">On this page</h2>
+        <ul class="flex flex-wrap gap-2 text-sm">
+            <li>
+                <a href="#dinearounds" class="inline-flex items-center rounded-full border px-3 py-1 hover:bg-gray-50">DLF Forum Dinearounds</a>
+            </li>
+            <li>
+                <a href="#mentor-mentee" class="inline-flex items-center rounded-full border px-3 py-1 hover:bg-gray-50">Mentor/Mentee Coffee Break</a>
+            </li>
+            <li>
+                <a href="#off-site" class="inline-flex items-center rounded-full border px-3 py-1 hover:bg-gray-50">Other Off‑Site Activities</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Cards Grid -->
+    <div class="grid gap-6 md:grid-cols-2">
+        <!-- Dinearounds Card -->
+        <article id="dinearounds" class="rounded-2xl border bg-white p-6 shadow-sm">
+            <header class="flex items-start gap-3">
+                <div class="rounded-xl border p-2" aria-hidden="true">🍽️</div>
+                <div>
+                    <h2 class="text-xl font-semibold">DLF Forum Dinearounds</h2>
+                    <p class="mt-1 text-sm text-gray-600">Meet new people and explore Denver by participating in a dinearound during the DLF Forum!</p>
+                </div>
+            </header>
+            <div class="mt-4 space-y-4 text-sm leading-relaxed text-gray-700">
+                <p>Anyone can lead a dinearound—pick a restaurant (for ideas, check the Community Committee’s <a href="{{ localGuideUrl }}" class="underline decoration-gray-300 underline-offset-4 hover:decoration-gray-600">Local Guide</a>) and jot down the details on the spreadsheet. Prefer to just attend? Add your name in a restaurant’s column that already has a lead.</p>
+
+                <div class="rounded-xl border p-4">
+                    <h3 class="font-medium">How it works</h3>
+                    <ol class="mt-2 list-decimal pl-5 space-y-1">
+                        <li>Choose a restaurant or cafe near the venue.</li>
+                        <li>Open the shared sheet and add a new row under the correct tab.</li>
+                        <li>Include time, location, price range, accessibility notes, and your contact.</li>
+                        <li>Participants sign up directly in that column.</li>
+                    </ol>
+                    <div class="mt-3">
+                        <a href="{{ dinearoundSheetUrl }}" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-lg border px-3 py-2 text-sm hover:bg-gray-50" aria-label="Open dinearounds spreadsheet (opens in new tab)">Open Spreadsheet<span aria-hidden="true">↗</span></a>
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <h3 class="font-medium">Dinearounds schedule</h3>
+                    <dl class="mt-2 grid gap-2">
+                        <div class="rounded-lg border p-3">
+                            <dt class="text-gray-600">Monday, Nov 17 • 9:00am–12:00pm MT</dt>
+                            <dd class="font-medium">DLF Forum Breakfast / Brunch Dinearound</dd>
+                        </div>
+                        <div class="rounded-lg border p-3">
+                            <dt class="text-gray-600">Tuesday, Nov 18 • 5:00pm–8:00pm MT</dt>
+                            <dd class="font-medium">DLF Forum Dinner Dinearound</dd>
+                        </div>
+                    </dl>
+                </div>
+            </div>
+        </article>
+
+        <!-- Mentor/Mentee Coffee Break Card -->
+        <article id="mentor-mentee" class="rounded-2xl border bg-white p-6 shadow-sm">
+            <header class="flex items-start gap-3">
+                <div class="rounded-xl border p-2" aria-hidden="true">☕</div>
+                <div>
+                    <h2 class="text-xl font-semibold">Mentor / Mentee Coffee Break</h2>
+                    <p class="mt-1 text-sm text-gray-600">A dedicated moment to connect, ask questions, and share experiences.</p>
+                </div>
+            </header>
+            <div class="mt-4 space-y-4 text-sm leading-relaxed text-gray-700">
+                <p>Use this break to catch up with your mentor or mentee—compare notes, talk goals, and, of course, learn how you each take your coffee (or tea!).</p>
+                <div class="rounded-xl border p-4">
+                    <h3 class="font-medium">When & where</h3>
+                    <p class="mt-2">
+                        <span class="inline-block rounded-full border px-2.5 py-1 text-xs mr-2">Wednesday, Nov 19</span>
+                        <span class="inline-block rounded-full border px-2.5 py-1 text-xs">11:00–11:30am MT</span></p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Off-Site Activities Card -->
+        <article id="off-site" class="md:col-span-2 rounded-2xl border bg-white p-6 shadow-sm">
+            <header class="flex items-start gap-3">
+                <div class="rounded-xl border p-2" aria-hidden="true">🗺️</div>
+                <div>
+                    <h2 class="text-xl font-semibold">Other Off‑Site Activities</h2>
+                    <p class="mt-1 text-sm text-gray-600">Explore Denver’s museums, Union Station, libraries, parks, and more—especially on Monday before the conference begins.</p>
+                </div>
+            </header>
+            <div class="mt-4 space-y-4 text-sm leading-relaxed text-gray-700">
+                <p>If you’d like to coordinate a visit and invite others to join, email us the details so we can add it to the site:</p>
+                <ul class="list-disc pl-5 space-y-1">
+                    <li>Destination and brief description</li>
+                    <li>Proposed date/time and meeting point</li>
+                    <li>Ticket info (if any) and accessibility notes</li>
+                </ul>
+                <p>Send your idea to <a href="mailto:{{ contactEmail }}" class="underline decoration-gray-300 underline-offset-4 hover:decoration-gray-600">{{ contactEmail }}</a>.</p>
+            </div>
+        </article>
+    </div>
+
+    <!-- Helpful Links -->
+    <aside class="rounded-2xl border bg-white p-6 shadow-sm mb-12">
+        <h2 class="text-lg font-semibold">Helpful links</h2>
+        <ul class="mt-3 grid gap-2 md:grid-cols-2 text-sm">
+            <li>
+                <a class="inline-flex items-center justify-between rounded-lg border px-3 py-2 hover:bg-gray-50" href="{{ localGuideUrl }}">Community Committee’s Local Guide <span aria-hidden="true">→</span></a>
+            </li>
+            <li>
+                <a class="inline-flex items-center justify-between rounded-lg border px-3 py-2 hover:bg-gray-50" href="{{ dinearoundSheetUrl }}" target="_blank" rel="noopener">Dinearounds Spreadsheet <span aria-hidden="true">↗</span></a>
+            </li>
+        </ul>
+    </aside>
+</section>

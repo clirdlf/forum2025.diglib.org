@@ -23,7 +23,7 @@
   {
     "name": "4Science",
     "url": "https://4science.com/",
-    "info": "4Science is a Certified Platinum Provider of DSpace and lead contributor to DSpace globally. We offer turnkey solutions for DSpace, DSpace extensions (DSpace-CRIS and DSpace-GLAM), and Dataverse.",
+    "info": "4Science is a Certified Platinum Provider of DSpace and lead contributor to DSpace globally. We offer turnkey solutions for DSpace, DSpace extensions (DSpace-CRIS and DSpace-GLAM), and Dataverse.<br><br><strong>Services Offered</strong><br><ul class=\"text-left text-gray-700 text-sm mt-2 list-disc\"><li>DSpace SaaS and Cloud Hosting (Trusted with Cloud Security Alliance – CSA, ISO 27001:2022 certified)</li><li>On-Premises Support</li><li>Turn-key Solutions</li><li>Consultancy &amp; Training</li><li>Analysis &amp; Customization</li><li>Installation &amp; Configuration</li><li>Platform migrations and upgrades</li><li>Software Development &amp; Integration</li></ul>",
     "logo": "/static/sponsors/4science_blue_transparent.png",
     "level": "Silver"
   },

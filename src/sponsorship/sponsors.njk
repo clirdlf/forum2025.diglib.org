@@ -52,7 +52,7 @@ eleventyNavigation:
               {% endif %}
             </a>
             {% if sponsor.info %}
-              <p class="text-sm text-gray-700">{{ sponsor.info }}</p>
+              <p class="text-sm text-gray-700">{{ sponsor.info | safe }}</p>
             {% endif %}
           </div>
         {% endfor %}

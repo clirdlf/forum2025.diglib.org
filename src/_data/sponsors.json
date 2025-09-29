@@ -14,6 +14,20 @@
     "level": "Platinum"
   },
   {
+    "name": "Discovery Garden",
+    "url": "https://www.discoverygarden.com",
+    "info": "Reimagining institutional repositories and digital collections. We build and run outstanding institutional repositories and digital collections for libraries, galleries, museums, and archives so they can organize and share their prized digital assets.",
+    "logo": "/static/sponsors/dg-logo-darkblue.svg",
+    "level": "Gold"
+  },
+  {
+    "name": "4Science",
+    "url": "https://4science.com/",
+    "info": "4Science is a Certified Platinum Provider of DSpace and lead contributor to DSpace globally. We offer turnkey solutions for DSpace, DSpace extensions (DSpace-CRIS and DSpace-GLAM), and Dataverse.",
+    "logo": "/static/sponsors/4science_blue_transparent.png",
+    "level": "Silver"
+  },
+  {
     "name": "JSTOR",
     "url": "https://about.jstor.org/",
     "logo": "/static/sponsors/jstor.svg",

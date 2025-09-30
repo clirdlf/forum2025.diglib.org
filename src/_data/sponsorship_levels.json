@@ -25,7 +25,8 @@
     "benefits": [
       "Link and organization description (along with logo) on conference website",
       "Opted-in attendee email addresses (typically up to 250 people)",
-      "One (1) complimentary tickets to the DLF Forum for your team ($800 value)",
+      "One <a class='underline' href='#sponsor-emails'>“From Our Partner”</a> email sent to attendees (up to 500 people)",
+      "One (1) complimentary ticket to the DLF Forum for your team ($800 value)",
       "Named sponsor of one conference breakfast or lunch with name, logo, and QR code on two 24” x 36” signs to be on display during the meal",
       "Exhibit table at conference reception and in exhibit hall"
     ],

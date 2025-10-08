@@ -2,7 +2,7 @@
 layout: default
 ---
 <!-- Hero Section -->
-<header id="hero" class="h-96 bg-cover bg-center relative text-center">
+<header id="hero" class="h-96 bg-cover bg-center relative text-center" {% if cover %}style="background-image: url('{{ cover | url }}')"{% endif %}>
     <div class="absolute inset-0 bg-black/50 flex items-center justify-center">
         <h1 class="text-white text-4xl md:text-6xl font-bold mx-20">{{ title }}</h1>
     </div>

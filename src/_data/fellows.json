@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Amaobi Otiji",
+    "category": "Students",
+    "bio": "Amaobi Otiji is pursuing his Master of Information at Rutgers University concentrating in the Technology, Information, and Management pathway. Prior to entering this program, Amaobi earned a bachelor’s degree in history from Howard University and has worked in roles involving federal collections, both digitized and born-digital. His professional interests center on digital curation, metadata development, and exploring new approaches to preserving and sharing underrepresented histories. He is focused on increasing equitable access to information and helping to shape how emerging technologies influence our cultural memory. In his spare time, Amaobi enjoys playing baritone ukulele, attending live theater, and playing video games.",
+    "headshot": "Amaobiotiji.jpg"
+  },
+  {
+    "name": "Cláudia De Souza",
+    "category": "Grassroots Archives and Cultural Heritage Workers",
+    "bio": "Cláudia De Souza is an associate professor at the College of Communication and Information at the University of Puerto Rico. She teaches in the Graduate Program in Information Science, focusing on information organization and retrieval, with particular emphasis on the analysis, evaluation, and design of digital libraries and archives. She is also the academic coordinator of the UPR Caribe Digital project, an initiative dedicated to advancing Digital Humanities research and scholarship in and for the Caribbean. She advocates for and fosters open access to knowledge, supports digital preservation, and promotes the dissemination of documentary heritage. Her work is driven by a commitment to enhancing the visibility and accessibility of information resources across the Insular Caribbean.",
+    "headshot": "ClaudiaDeSouza.jpg"
+  },
+  {
+    "name": "Darcy Ruppert",
+    "category": "Public Library Workers",
+    "bio": "Darcy Ruppert is an archivist and librarian living and working in the greater Seattle area. Since receiving their MLIS from the University of Washington in 2023, Darcy has worked in various museums, special collections, and community archives, specializing in the digital preservation of audiovisual collections. Their professional work has been defined by a commitment towards democratizing access to digital archives themselves and the tools of digital preservation. They are currently managing King County Library System's Memory Lab, a Mellon Foundation-funded community oral history project with a mission to record, preserve, and share the stories of King County.",
+    "headshot": ""
+  },
+  {
+    "name": "Dorian McIntush",
+    "category": "Emerging Professionals",
+    "bio": "Dorian is the Open Scholarship and Data Resident Librarian at Washington and Lee University, where he supports faculty and students with digital research and open knowledge initiatives. He has a commitment to creating equitable access to knowledge and is particularly interested in exploring the environmental impact of digital technologies and open scholarship models that prioritize accessibility and long-term sustainability. Beyond his professional work, he enjoys tromping through Virginia’s hiking trails with his dog, taking on new knitting projects, and cooking interesting recipes for dinner.",
+    "headshot": "DorianMcIntush.jpg"
+  },
+  {
+    "name": "Emily Woehrle",
+    "category": "Emerging Professionals",
+    "bio": "Emily Woehrle is a Digital Content Librarian at the University of Toronto Libraries, where she supports a large-scale website renewal project and manages the library’s LibGuides service. She also works as a part-time librarian at the Toronto Public Library. With a background in non-profit communications and content management, Emily brings an interdisciplinary perspective to her work and looks forward to sharing experiences and learning from peers at the DLF Forum to advance sustainable, user-centered digital library practices.",
+    "headshot": "EmilyWoehrle.png"
+  },
+  {
+    "name": "Hassna Ramadan",
+    "category": "HBCU Students and Workers",
+    "bio": "Hassna Ramadan is the Digital Innovation & Access Services Librarian and Assistant Professor at Alabama State University’s Levi Watkins Learning Center, leading digitization, metadata, and access initiatives. Her work promotes equitable, user-centered digital collections that enhance access to HBCU history and culture. A 2025 DLF Forum Fellow, she is pursuing an Ed.D. in Applied Learning Sciences at the University of Miami and holds an MLIS from the University of Washington.",
+    "headshot": "HassnaRamadan.jpg"
+  },
+  {
+    "name": "Noah Garcia",
+    "category": "Students",
+    "bio": "Noah Garcia is an emerging information professional and lens-based artist pursuing an M.S. in Library Science – Archival Studies (2025) and an M.F.A. in Studio Art – Photography (2026) at the University of North Texas. His work specializes in the digitization and preservation of cultural heritage materials. As the Graduate Services Assistant in UNT’s Digital Projects Lab, he has developed expertise in imaging technologies, metadata, and digital library standards, contributing to projects for The Portal to Texas History and UNT Digital Library.  In 2024, he received the Texas Conference on Digital Libraries Student Excellence Award for his innovative digitization tools. His work has been presented at state-wide and regional conferences.",
+    "headshot": "NoahGarcia.jpg"
+  },
+  {
+    "name": "Rosalía Iriye",
+    "category": "Students",
+    "bio": "Rosalía Iriye is a Master in Library and Information Science at University of California - Los Angeles (UCLA), B.A. Labor Studies. She is currently the Digital Collections Manager for the UCLA Institute for Research on Labor and Employment (IRLE) labor archive, supporting in community digitization partnerships with labor organizations such as Asian Pacific American Labor Alliance (APALA AFL-CIO) LA chapter and Garment Worker Center. She previously worked on California State Library and National Endowment of the Humanities queer cataloging/reparative metadata grants with the UCLA Chicano Studies Research Center library/archive. Iriye most recently interned in digital records management with the National Park Service, and volunteers in herbaria and natural history collections digitization with the UCLA Mathias Botanic Garden, Los Angeles County Arboretum & Botanic Garden, and California Botanic Garden. She hopes to learn more about digital preservation for public histories, exploring research data in environmental conservation and industrial/labor histories.",
+    "headshot": ""
+  },
+  {
+    "name": "Sara Hansen",
+    "category": "Emerging Professionals",
+    "bio": "Sara Hansen is the Research Data Curator for the Purdue University Research Repository (PURR). Their background is in open, data-intensive ecological research, which was a natural stepping stone toward their dream digital libraries career. Sara’s favorite part of their job is exploring a wide variety of research projects across Purdue’s campus by working hands-on with the data they use and generate. Sara is excited to expand their understanding of information science and make lots of new connections at the DLF Forum.",
+    "headshot": "SaraHansen.jpg"
+  },
+  {
+    "name": "Stanislava Gardasevic",
+    "category": "Emerging Professionals",
+    "bio": "Stanislava (Stasha) Gardasevic works as a Metadata Librarian in Hamilton Library, University of Hawaiʻi at Mānoa (UHM), and her focus is on the description of digital objects. She obtained her PhD in the Communication and Information Sciences (CIS) interdisciplinary program. She holds an MLIS degree from the Digital Library Learning program (joint degree from Norway, Estonia, and Italy) and specializes in metadata for digital resources and interoperability. Her bachelor's degree is in LIS from the University of Belgrade, Serbia, where she worked at the National Library of Serbia in the digitization department. Stasha was engaged in several digitization projects of historical archives in Hawaiʻi (i.e., Kawaiahaʻo Church, Congressional Papers) and worked as a teaching assistant/course instructor at the Library and Information Science (LIS) at UHM.",
+    "headshot": "StashaGardasevic.jpg"
+  }
+]

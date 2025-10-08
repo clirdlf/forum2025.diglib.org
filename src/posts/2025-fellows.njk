@@ -1,0 +1,63 @@
+---
+title: Announcing the 2025 DLF Forum Fellows
+cover: "/static/benigno-hoyuela-vx3kv6ZMRgo-unsplash.webp"
+date: 2025-10-08
+blurb: 2025 DLF Forum Fellows Announced
+excerpt: C
+drafts: false
+preload:
+    - /static/benigno-hoyuela-vx3kv6ZMRgo-unsplash.webp
+---
+
+<section class="mx-auto container max-w-5xl px-8 py-10">
+    <div class="mx-auto max-w-(--breakpoint-md)">
+        <p class="text-lg block antialiased font-sans leading-relaxed text-inherit text-base font-normal! mb-6">
+            At the heart of the DLF Forum lies a commitment to expanding access, uplifting new voices, and strengthening a diverse community of practice. Our Fellowship Program helps make participation possible for those who might not otherwise be able to attend, reducing financial barriers and fostering more inclusive dialogue.
+        </p>
+        <p class="text-lg block antialiased font-sans leading-relaxed text-inherit text-base font-normal! mb-6">
+            We are deeply grateful to our 2025 fellowship sponsors, <strong>AM Quartex</strong> and <strong>MetaArchive</strong>. 
+        </p>
+
+        <p class="text-lg block antialiased font-sans leading-relaxed text-inherit text-base font-normal! mb-6"> 
+            Thanks to their support, selected fellows receive full Forum registration, three nights' accommodation, a travel stipend, and special networking opportunities, all aimed at helping scholars, practitioners, and emerging professionals fully engage in four days of connection, learning, and collaboration.
+        </p>
+
+    </div>
+</section>
+
+<section class="fellows">
+    <div class="container mx-auto px-6 py-12">
+        <h1 class="text-4xl font-bold mb-10 text-center">DLF Forum Fellows</h1>
+
+        {%- for fellow in fellows %}
+            {%- if loop.first %}
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {% endif %}
+            <div class="fellow-card bg-white rounded-2xl shadow-md p-6 flex flex-col items-center text-center">
+                {% if fellow.headshot %}
+                    <img 
+                        src="/static/fellows/{{ fellow.headshot }}" 
+                        alt="Headshot of {{ fellow.name }}" 
+                        class="w-32 h-32 object-cover rounded-full mb-4"
+                    >
+                {% else %}
+                    <img 
+                        src="/static/dlf-logo.svg" 
+                        alt="Headshot of {{ fellow.name }}" 
+                        class="w-32 h-32 object-cover rounded-full mb-4"
+                    >
+                {% endif %}
+
+                <h2 class="text-xl font-semibold">{{ fellow.name }}</h2>
+                <p class="text-sm text-blue-700 mb-3">{{ fellow.category }}</p>
+                <p class="text-gray-700 text-sm leading-relaxed text-left">{{ fellow.bio }}</p>
+            </div>
+            
+
+            {% if loop.last %}
+                </div>
+            {% endif %}
+        {% endfor %}
+
+    </div>
+</section>

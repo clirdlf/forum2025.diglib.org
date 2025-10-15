@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="569.33331"
+   height="180"
+   viewBox="0 0 569.33331 180"
+   sodipodi:docname="TIND_logo_blue.eps"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:page
+       x="0"
+       y="0"
+       inkscape:label="1"
+       id="page1"
+       width="569.33331"
+       height="180"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <g
+     id="g1"
+     inkscape:groupmode="layer"
+     inkscape:label="1">
+    <g
+       id="group-R5">
+      <path
+         id="path2"
+         d="M 4235,35 H 35 v 1280 h 4200 z"
+         style="fill:none;stroke:#3f7ec0;stroke-width:70;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         transform="matrix(0.13333333,0,0,-0.13333333,0,180)" />
+      <path
+         id="path3"
+         d="m 2080.93,974.852 453.81,-498.461 v 0 0 -100.188 L 2080.82,874.57 v 0 0 l 0.11,100.282"
+         style="fill:#3f7ec0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(0.13333333,0,0,-0.13333333,0,180)" />
+      <path
+         id="path4"
+         d="m 1126.65,381.727 h -74.19 V 908.895 H 911.203 v 67.878 H 1267.9 V 908.895 H 1126.65 V 381.727"
+         style="fill:#3f7ec0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(0.13333333,0,0,-0.13333333,0,180)" />
+      <path
+         id="path5"
+         d="m 1710.26,381.727 h -74.18 v 595.046 h 74.18 V 381.727"
+         style="fill:#3f7ec0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(0.13333333,0,0,-0.13333333,0,180)" />
+      <path
+         id="path6"
+         d="m 2976.04,449.613 h 26.02 c 151.52,0 282.55,56.813 282.55,229.625 0,173.621 -131.03,229.66 -282.55,229.66 h -26.02 z m -74.18,527.164 h 123.11 c 182.31,0 333.83,-96.281 333.83,-294.386 0,-202.797 -148.37,-300.657 -336.21,-300.657 h -120.73 v 595.043"
+         style="fill:#3f7ec0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(0.13333333,0,0,-0.13333333,0,180)" />
+    </g>
+  </g>
+</svg>

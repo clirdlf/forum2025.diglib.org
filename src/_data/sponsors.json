@@ -35,6 +35,13 @@
     "info": "Collection stewardship is increasingly complex, requiring institutions to juggle preservation, digital asset management, description and metadata creation, and access with limited resources. JSTOR Digital Stewardship Services solves these common collection management challenges. Developed in collaboration with librarians and archivists, JDSS integrates your digital assets, with AI-powered processing support, for increased discovery and long-term preservation, including sharing on JSTOR."
   },
   {
+    "name": "Terentia",
+    "url": "https://terentia.io/",
+    "info": "Empowering cultural institutions. Terentia is the next-generation platform to manage collections, organize and preserve digital assets, and tell compelling stories. Purpose-built for the GLAMP sector, our cloud-native solution integrates digital asset management (DAM), collections management, and collections engagement into a flexible, user-friendly interface, powered by Microsoft Azure. Discover a more innovative way to streamline workflows and connect with diverse audiences.",
+    "logo": "/static/sponsors/TERENTIA_LOGO_TEAL.png",
+    "level": "Silver"
+  },
+  {
     "name": "TIND",
     "url": "https://www.tind.io/",
     "info": "TIND Digital Archive is a modern platform for managing, preserving, and showcasing digital collections. It combines flexible metadata handling with powerful discovery tools that make collections more visible and accessible. Secure hosting, dependable preservation workflows, and smooth migration from legacy systems ensure reliability, backed by responsive support and continuous development. TIND is an official CERN spin-off providing commercial library management systems, digital preservation, and research data management solutions based on CERN open-source software. Serving academic, public, and special research libraries around the globe, TIND is headquartered in Oslo, Norway.",

@@ -17,7 +17,8 @@
     "lint:html": "html-validate \"src/**/*.{html,njk}\"",
     "lint": "pnpm lint:js && pnpm lint:css",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "cache:zenodo": "node lib/cache-zenodo.js"
   },
   "repository": {
     "type": "git",

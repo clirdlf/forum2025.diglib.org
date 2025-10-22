@@ -1,0 +1,42 @@
+---
+title: DLF Forum 2025 Presentations
+layout: page.njk
+cover: /static/CLIRM-158-scaled.jpg
+---
+
+<section class="container mx-auto p-4 max-w-6xl">
+    <h1 class="text-3xl font-bold mb-6">DLF Forum Presentations</h1>
+
+    {% if presentations | length == 0 %}
+        <p>No presentations available at this time.</p>
+    {% else %}
+        <ul class="space-y-6">
+            {% for item in presentations %}
+                <li class="p-6 rounded-2xl shadow-md bg-white border border-gray-200">
+                    <h2 class="text-xl font-semibold text-blue-800 mb-1">{{ item.title }}</h2>
+                    <p class="text-gray-700 text-sm mb-2">
+                        <strong>Authors:</strong>
+                        {{ item.authors }}<br>
+                        <strong>Year:</strong>
+                        {{ item.year }}
+                    </p>
+                    {% if item.abstract %}
+                        <p class="text-gray-800 mb-4">{{ item.abstract | safe }}</p>
+                    {% endif %}
+                    <div class="flex flex-wrap items-center gap-4 mt-2">
+                        {% if item.download_link %}
+                            <a href="{{ item.download_link }}" class="inline-block px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" aria-label="Download {{ item.title }}">
+                                Download
+                            </a>
+                        {% endif %}
+                        {% if item.doi %}
+                            <a href="{{ item.doi }}" class="text-blue-700 underline text-sm" target="_blank" rel="noopener noreferrer">
+                                View DOI
+                            </a>
+                        {% endif %}
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</section>

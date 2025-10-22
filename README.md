@@ -10,10 +10,12 @@ A static site for the DLF Forum 2025 in Denver, built with [Eleventy](https://ww
   - [Prerequisites](#prerequisites)
   - [Getting Started](#getting-started)
   - [Available Scripts](#available-scripts)
+  - [Zenodo Data](#zenodo-data)
   - [Linting \& Formatting](#linting--formatting)
   - [Testing](#testing)
   - [Building](#building)
   - [Deployment](#deployment)
+  - [Continuous Integration](#continuous-integration)
   - [Asset Optimization](#asset-optimization)
   - [Contributing](#contributing)
   - [Changelog](#changelog)
@@ -47,6 +49,23 @@ pnpm install
 | `pnpm format`       | Format codebase with Prettier                        |
 | `pnpm format:check` | Check code formatting with Prettier                  |
 | `pnpm clean`        | Remove generated site folder (`_site`)               |
+| `pnpm cache:zenodo` | Cache Zenodo presentations                           |
+
+## Zenodo Data
+
+This pulls submissions from the DLF Forum community for a given year (e.g. 2025) and places the metadata in `src/_data/presentaitons.json`. These are then rendered at build time. The presentations are then available at `/presentations/`.
+
+```bash
+pnpm cache:zenodo
+```
+
+For use in future years, this also accepts a command-line argument for a given year:
+
+```bash
+pnpm cache:zenodo 2026
+```
+
+Source for this is in [`lib/cache-zenodo.js`](lib/cache-zenodo.js).
 
 ## Linting & Formatting
 

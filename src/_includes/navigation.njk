@@ -48,7 +48,7 @@
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
                   </svg>
                 </button>
-                <div id="dropdownNavbar-{{ entry.title | slug }}" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600">
+                <div id="dropdownNavbar-{{ entry.title | slug }}" class="z-50 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600">
                   <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton-{{ entry.title | slug }}">
                     {% for child in entry.children %}
                       <li>
@@ -71,11 +71,7 @@
         {% endfor %}
       </ul>
     </div>
-    <div class="flex items-center space-x-4">
-      <a href="/registration/" data-ripple-light="true"
-        class="inline-block rounded-lg bg-gray-900 px-6 py-2 text-white text-sm font-medium shadow-md hover:bg-gray-800 focus:outline-hidden focus:ring-2 focus:ring-gray-700 focus:ring-offset-2 transition">
-        Register
-      </a>
-    </div>
+    <div class="flex items-center space-x-4"> <a href="/registration/" data-ripple-light="true" class="inline-block rounded-lg bg-gray-900 px-6 py-2 text-white text-sm font-medium shadow-md hover:bg-gray-800 focus:outline-hidden focus:ring-2 focus:ring-gray-700 focus:ring-offset-2 transition"> Registration is closed </a> </div>
+</div>
   </div>
 </nav>

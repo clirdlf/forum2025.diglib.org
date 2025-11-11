@@ -1,5 +1,10 @@
 [
   {
+    "name": "Shaneé Yvette Willis",
+    "role": "Senior Program Officer",
+    "image": "static/shawnée.jpg"
+  },
+  {
     "name": "Aliya Reich",
     "role": "Program Manager for Conferences &amp; Events",
     "image": "static/CLIRM-166-scaled.jpg"
@@ -10,23 +15,18 @@
     "image": "static/Lizzi-Albert.jpg"
   },
   {
-    "name": "Julie Beroukas Snyder",
-    "role": "Chief Development Officer, CLIR",
-    "image": "static/Julie.jpg"
-  },
-  {
-    "name": "Alice Rubin",
-    "role": "Program Officer, Strategic Initiatives",
-    "image": "static/Alice.jpg"
-  },
-  {
     "name": "Jenn Cummings",
     "role": "CONCENTRA-CMS",
     "image": "static/jenn.jpg"
   },
   {
+    "name": "Kahty Azevedo",
+    "role": "CONCENTRA-CMS",
+    "image": "static/kathy-profile-pic.png"
+  },
+  {
     "name": "Wayne Graham",
-    "role": "Interim Director, DLF",
+    "role": "CIO, CLIR",
     "image": "static/Wayne.jpg"
   }
 ]

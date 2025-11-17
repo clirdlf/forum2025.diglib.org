@@ -30,6 +30,8 @@ cover: /static/CLIRM-158-scaled.jpg
                             </a>
                         {% endif %}
                         {% if item.doi %}
+                            {# <a href="{{ item.doi }}"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.{{item.id}}.svg" alt="DOI"></a> #}
+
                             <a href="{{ item.doi }}" class="text-blue-700 underline text-sm" target="_blank" rel="noopener noreferrer">
                                 View DOI
                             </a>

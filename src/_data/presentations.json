@@ -1,5 +1,41 @@
 [
   {
+    "id": 17635817,
+    "title": "Digital Preservation as a Dependency",
+    "authors": "Cirella, David, Manton, Jonathan",
+    "abstract": "<p>Yale Library is integrating digital access and preservation through a stewardship model that prioritizes sustainability, usability, and ethical practices. This presentation explores how access systems, workflows, and stakeholder needs are supported through policy, custom development, and infrastructure planning to ensure long-term discoverability and preservation of digital special collections.</p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17635817",
+    "download_link": "https://zenodo.org/api/records/17635817/files/DLF 2025 Presentation.pdf/content"
+  },
+  {
+    "id": 17636285,
+    "title": "Inclusive description? In this political climate?",
+    "authors": "Beck, Emma, Wright, Challen",
+    "abstract": "",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17636285",
+    "download_link": "https://zenodo.org/api/records/17636285/files/T21_ Inclusive description_ In this political climate_.pptx/content"
+  },
+  {
+    "id": 17636451,
+    "title": "DAM'ed if You Do, DAM'ed if You Don't: Using Generative AI to Support a Digital Asset Manager Migration",
+    "authors": "Miessler, R.C.",
+    "abstract": "<p>Gettysburg College's Musselman Library undertook a migration from CONTENTdm to AM Quartex, but the library did not have coding or development support to leverage the CONTENTdm API. Instead, ChatGPT was used to develop Python scripts to automate certain aspects of the migration, generally successfully.</p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17636451",
+    "download_link": "https://zenodo.org/api/records/17636451/files/miessler_dlf_2025_zenodo.pdf/content"
+  },
+  {
+    "id": 17634480,
+    "title": "Hire Learning: Reducing Accessibility Work Burnout with Methodical Student Employee Hiring",
+    "authors": "Birchmeier, Bryan",
+    "abstract": "<p>An overview of accessibility initiatives at the University of Michigan libraries which employ students with specific, complementary skills to address remediation of content, alleviate workload, and address accessibility gaps present at the libraries.</p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17634480",
+    "download_link": "https://zenodo.org/api/records/17634480/files/Hire Learning - DLF Forum 2025 - Bryan Birchmeier.pptx/content"
+  },
+  {
     "id": 17625701,
     "title": "Stitching Stories: Bringing Material Cultures Into the Digital Humanities",
     "authors": "Ismail, Mariam",
@@ -61,6 +97,24 @@
     "year": 2025,
     "doi": "https://doi.org/10.5281/zenodo.17594695",
     "download_link": "https://zenodo.org/api/records/17594695/files/Matusiak_Han_2025 DLF Forum.pptx/content"
+  },
+  {
+    "id": 17636438,
+    "title": "Digitizing NYC Mayor David Dinkins Photographs",
+    "authors": "Sarah Cuk",
+    "abstract": "<p><span lang=\"EN-US\"><span>I&nbsp;</span><span>describe</span> <span>digitizing</span> <span>photographic negatives</span> <span>from </span><span>the Mayor David Dinkins administration </span><span>(1990</span><span>-</span><span>1993) </span><span>at the N</span><span>YC</span><span> Municipal Archives</span><span>. </span><span>Unlike</span><span> typical workflows </span><span>where</span><span> records are digitized </span></span><span lang=\"EN-US\"><span>once</span> <span>processed, </span></span><span lang=\"EN-US\"><span>I</span><span>&rsquo;m</span> <span>simultaneously </span><span>processing, digitizing, and describing</span><span>. </span><span>Th</span><span>is </span><span>maintain</span><span>s</span><span> consistency so that everything is standardized</span><span> and ready for</span> <span>members of </span><span>Dinkins&rsquo; Administration</span> <span>to </span><span>transcr</span><span>ibe</span><span>.</span></span><span>&nbsp;</span></p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17636438",
+    "download_link": "https://zenodo.org/api/records/17636438/files/DLF_Digitizing-David-Dinkins_Cuk.pptx/content"
+  },
+  {
+    "id": 17632867,
+    "title": "Evolving Roles and Tools: Navigating the Future of Project Management in Digital Libraries",
+    "authors": "Lovins, Cari",
+    "abstract": "<p>As digital library work grows in complexity, so must our approaches to managing it. This workshop will explore the evolving landscape of project management in the digital library space, including incorporating AI tools, adapting to economic constraints, and transitioning from traditional project management to broader program and service management roles.</p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17632867",
+    "download_link": "https://zenodo.org/api/records/17632867/files/EvolvingRolesandToolsPM_LearnDLF2025.pdf/content"
   },
   {
     "id": 17624237,

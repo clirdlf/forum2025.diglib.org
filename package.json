@@ -59,7 +59,7 @@
     "tailwindcss": "^4.1.16"
   },
   "dependencies": {
-    "@11ty/eleventy-navigation": "^1.0.4",
+    "@11ty/eleventy-navigation": "^1.0.5",
     "@11tyrocks/eleventy-plugin-emoji-readtime": "^1.0.1",
     "@material-tailwind/html": "^2.3.2",
     "clean-css": "^5.3.3",

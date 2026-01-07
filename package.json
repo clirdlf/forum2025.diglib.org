@@ -38,10 +38,10 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-img": "^6.0.4",
-    "@tailwindcss/postcss": "^4.1.16",
+    "@tailwindcss/postcss": "^4.1.18",
     "cross-env": "^10.1.0",
     "cssnano": "^7.1.2",
-    "eslint": "^9.39.1",
+    "eslint": "^9.39.2",
     "glob": "^11.1.0",
     "html-minifier-terser": "^7.2.0",
     "jest": "^30.2.0",
@@ -52,14 +52,14 @@
     "postcss": "^8.5.6",
     "postcss-cli": "^11.0.1",
     "postcss-import": "^16.1.1",
-    "rimraf": "^6.1.0",
-    "stylelint": "^16.25.0",
+    "rimraf": "^6.1.2",
+    "stylelint": "^16.26.1",
     "stylelint-config-standard": "^39.0.1",
     "stylelint-config-tailwindcss": "^1.0.0",
-    "tailwindcss": "^4.1.16"
+    "tailwindcss": "^4.1.18"
   },
   "dependencies": {
-    "@11ty/eleventy-navigation": "^1.0.4",
+    "@11ty/eleventy-navigation": "^1.0.5",
     "@11tyrocks/eleventy-plugin-emoji-readtime": "^1.0.1",
     "@material-tailwind/html": "^2.3.2",
     "clean-css": "^5.3.3",
@@ -69,7 +69,7 @@
     "luxon": "^3.7.2",
     "node-fetch": "^3.3.2",
     "postcss-nested": "^7.0.2",
-    "prettier": "^3.6.2",
+    "prettier": "^3.7.4",
     "prettier-plugin-tailwindcss": "^0.6.14"
   }
 }

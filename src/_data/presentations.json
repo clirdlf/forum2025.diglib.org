@@ -1,5 +1,113 @@
 [
   {
+    "id": 18041253,
+    "title": "Here there be dragons: Seeking reparative metadata practices in self-deposit repositories",
+    "authors": "Woodbrook, Rachel, Rayburn, Alexandria",
+    "abstract": "<p>This session presents the results of a semester-long collaboration between an iSchool PhD student and librarians overseeing Deep Blue Documents, an institutional repository with over 170,000 items, seeking best practices in addressing potentially harmful metadata and content in existing deposits, and in the deposition of future content.</p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.18041253",
+    "download_link": "https://zenodo.org/api/records/18041253/files/Here there be dragons.pdf/content"
+  },
+  {
+    "id": 17661233,
+    "title": "W06: Fostering Civic Engagement Through Digital Archives – The Revolutionary City Project",
+    "authors": "Miller, Bayard",
+    "abstract": "",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17661233",
+    "download_link": "https://zenodo.org/api/records/17661233/files/Miller_Rev_City_DLF_2025.pdf/content"
+  },
+  {
+    "id": 17654921,
+    "title": "Circa: A Customizable, Web-based Request System for Special Collections",
+    "authors": "Jonathan Page",
+    "abstract": "<p>Circa is a web-based system for managing requests for items in special collections, developed by NC State Libraries. It integrates with ArchivesSpace, supports various request types, and utilizes IIIF. A new customizable, open-source version is in development. This talk explores Circa&rsquo;s capabilities and invites feedback on its community-driven evolution.</p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17654921",
+    "download_link": "https://zenodo.org/api/records/17654921/files/JonPageCircaPresentation_DLF.pptx/content"
+  },
+  {
+    "id": 17655062,
+    "title": "\"We Thought It Was One Tape, One Record\": Metadata Mayhem and Workflow Lessons from a Large-Scale A/V Digitization Project",
+    "authors": "Smith, Louise, Ehrbar, Katie",
+    "abstract": "<p>What do you do when your A/V collection has no metadata, AI transcriptions hallucinate wildly, and a single VHS tape contains nine discrete events? This presentation shares workflow strategies, lessons learned, and future recommendations from a year-long digitization and metadata effort on a donor&rsquo;s personal A/V archive.</p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17655062",
+    "download_link": "https://zenodo.org/api/records/17655062/files/We Thought It Was One Tape, One Record.pptx/content"
+  },
+  {
+    "id": 17654127,
+    "title": "Metadata Augmentation Using AI: an IMLS Grant Project",
+    "authors": "Carlstone, Jamie, Young, Jennifer",
+    "abstract": "<p>Northwestern University Libraries is developing a generative AI/ML tool to create and/or augment item-level descriptions for digitized collection materials at scale thus allowing metadata librarians to provide deeper analysis and context. We will discuss testing and assessment of the tool as well as the ethical implications of the work.</p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17654127",
+    "download_link": "https://zenodo.org/api/records/17654127/files/dlf-2025-presentation.pptx/content"
+  },
+  {
+    "id": 17652767,
+    "title": "Doing Less with Less: Rebuilding an ASpace to Islandora Metadata Pipeline",
+    "authors": "Paquette, Michelle",
+    "abstract": "<p>Post-Islandora 2 migration, Smith's ASpace-to-Islandora metadata pipeline broke and the people who built it were no longer at Smith. Michelle Paquette, Metadata Archivist, will explain how she rebuilt it, embracing her own more limited skillset.</p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17652767",
+    "download_link": "https://zenodo.org/api/records/17652767/files/Doing_Less_with_Less-MLP.pptx/content"
+  },
+  {
+    "id": 17651854,
+    "title": "Digital Heritage, Collective Impact: Navigating Digital Partnerships with Community Collaborators",
+    "authors": "Murphy, Grayson, Hebert, Kevin, Schiff, Kelly",
+    "abstract": "<p>This presentation will outline strategy related to the management of community-focused digitization projects. We will discuss the challenges, the rewards, and everything in between as we dive into two of our ongoing projects in collaboration with the Birmingham Music Archive and the Jefferson County District Attorney&rsquo;s Office.</p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17651854",
+    "download_link": "https://zenodo.org/api/records/17651854/files/UAB_DLF_2025 Presentation.pdf/content"
+  },
+  {
+    "id": 17652101,
+    "title": "Modernizing Access: Project Management Insights from the UCSF Industry Documents Library (IDL) Website Redesign",
+    "authors": "Ignacio, Melissa",
+    "abstract": "<p><strong>Modernizing Access: Project Management Insights from the UCSF Industry Documents Library Website Redesign</strong><br><u>Melissa Ignacio</u><br><em>University of California San Francisco</em><br>&nbsp;<br>This session explores project management strategies behind the UCSF Industry Documents Library website redesign. It highlights how a remote, cross-functional team collaborated to select methods and tools that ensured a successful and user-centered redesign that meets evolving research needs, implements accessibility, and incorporates updated UCSF branding standards.</p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17652101",
+    "download_link": "https://zenodo.org/api/records/17652101/files/Modernizing Access - Project Management Insights from the UCSF IDL Website Redesign.pdf/content"
+  },
+  {
+    "id": 17646552,
+    "title": "How Do I find This?: Design Justice and User Testing of a Library Website Without a Search Box",
+    "authors": "Tobiason, Anders",
+    "abstract": "<p>What happens when students encounter a library website with no obvious search box? This presentation discusses the initial results of UX Cafe style user testing of a library website without a search box and reflects on how this data can help build a website grounded in Design Justice principles.</p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17646552",
+    "download_link": "https://zenodo.org/api/records/17646552/files/How Do I FInd This_ DLF Forum 2025 Tobiason Slides.pptx/content"
+  },
+  {
+    "id": 17650777,
+    "title": "Borderlands Storytelling: Archival Collections, Digital Approaches, and Library Engagement in Innovative Humanities Scholarship",
+    "authors": "Varner, Alana, Senseney, Megan, Wells, Chelsea, Reyes-Escudero, Verónica",
+    "abstract": "<p>This presentation explores strategies for facilitating community-engaged digital scholarship.&nbsp; We will discuss findings from a funded, three-year project at a research intensive, Hispanic Serving, Land Grant Institution that utilized library-based seed grants to engage researchers in digital and data storytelling efforts on and about the U.S.-Mexico borderlands.</p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17650777",
+    "download_link": "https://zenodo.org/api/records/17650777/files/UABorderlandsDLF2025.pdf/content"
+  },
+  {
+    "id": 17645725,
+    "title": "Values-driven AI in libraries and archives: Introducing the Viewfinder toolkit",
+    "authors": "Mannheimer, Sara, Clark, Jason A., W. H. Young, Scott, Shorish, Yasmeen, Scates Kettler, Hannah",
+    "abstract": "<p dir=\"ltr\">AI hype is everywhere! Libraries and archives want to use AI to improve our resources and services, while protecting our communities from harm. We developed the Viewfinder toolkit to help practitioners implement AI in alignment with professional values. This hands-on session introduces the toolkit and guides participants through its use.</p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17645725",
+    "download_link": "https://zenodo.org/api/records/17645725/files/DLF2025_ResponsibleAI.pdf/content"
+  },
+  {
+    "id": 17644430,
+    "title": "Reasoning with Small Language Models (SLM) to Create Trustworthy GenAI",
+    "authors": "Clark, Jason A.",
+    "abstract": "<p dir=\"ltr\">A central problem with current interfaces for GenAI are the rapid modes of output production. These implementations are optimized for efficiency and concealing the ways output is created. I would suggest that there&rsquo;s no malice here, but rather, an human-computer interaction (HCI) oversight that misses how to create systems we can trust and learn from. We trust what we can see and explain. With the rise of inference models and chain of thought coding techniques, there are new ways to slow down these systems and ask them to show their work processes to create content.</p>\n<p dir=\"ltr\">In this talk, I&rsquo;ll walk through a working LLM agent prototype and emerging research using small language models (models that run on a phone or laptop), applied reasoning/inference methods, and an interface that works to explain the process it used to come up with an answer. In the end, we&rsquo;ll come to understand how we can take advantage of the affordances of the dialogic interface and how we can start to build trust in these systems. I&rsquo;ll also make the case for how experiments like this are essential components of GenAI Literacy and how you can bring these lessons into your own work to understand and teach GenAI.</p>\n<p>&nbsp;</p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17644430",
+    "download_link": "https://zenodo.org/api/records/17644430/files/small-language-models-trust-clark-dlf2025.pdf/content"
+  },
+  {
     "id": 17635817,
     "title": "Digital Preservation as a Dependency",
     "authors": "Cirella, David, Manton, Jonathan",
@@ -9,13 +117,85 @@
     "download_link": "https://zenodo.org/api/records/17635817/files/DLF 2025 Presentation.pdf/content"
   },
   {
-    "id": 17636285,
+    "id": 17831552,
+    "title": "The Care and Feeding of the Carpentries: Cultivating Inclusive Software Development Communities in Libraries",
+    "authors": "Wadland, Justin, Stubbs, Jennifer, Wheeler, Jonathan, Martin, Scott",
+    "abstract": "<p>This panel explores the efforts of libraries to organize and host Carpentries workshops that teach foundational coding and data science workshops through pedagogy grounded in inclusive values. Panelists will share tips on getting started with Carpentries, sustaining and growing existing programs, and participating in the larger Carpentries community.</p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17831552",
+    "download_link": "https://zenodo.org/api/records/17831552/files/DLF_Forum_2025_Care_and_Feeding_of_the_Carpentries-2.pdf/content"
+  },
+  {
+    "id": 17653805,
+    "title": "Clearing a Path for a Virtual Reading Room Program",
+    "authors": "Fuchs, Sara, Fisher, Katherine, Memory, Lindsey",
+    "abstract": "<p>This panel explores how Emory and BYU are designing Virtual Reading Rooms (VRRs) to expand access to restricted digital materials. Presenters will discuss differing definitions and use cases for VRRs then share lessons from their own pilot projects&mdash;including cross-institutional collaboration, legal and technical challenges, and policy design&mdash;offering practical insights for building ethical, sustainable, and mission-driven VRR programs.</p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17653805",
+    "download_link": "https://zenodo.org/api/records/17653805/files/DLF2025_VRR.pdf/content"
+  },
+  {
+    "id": 17654629,
+    "title": "Planning What's Next for the DLF Climate Justice Working Group",
+    "authors": "Wadland, Justin, Spiro, Lisa",
+    "abstract": "<p>CLIR recently completed the Climate Resiliency Action Series, an IMLS-funded training program that grew out of a DLF Climate Justice Working Group (CJWG) proposal. At this working session, we will reflect on lessons learned from the workshop series and solicit input about what the CJWG should focus on next.</p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17654629",
+    "download_link": "https://zenodo.org/api/records/17654629/files/DLF_Forum_2025_Whats_Next_for_DLF-CJWG.pdf/content"
+  },
+  {
+    "id": 17653246,
+    "title": "DataWorks: Creating a data catalog from the ground up",
+    "authors": "Khan, Huda, Frost, Hannah",
+    "abstract": "<p>Stanford University Libraries is developing the Dataworks data catalog which is a data discovery system for supporting research and teaching activities. This presentation will cover current and planned work for understanding user needs, developing an infrastructure for metadata retrieval, and designing and testing the DataWorks user interface.&nbsp;</p>\n<p>Google slides are available at https://bit.ly/DLFDataworks . A related GitHub repository for the metadata harvesting pipeline is available at https://github.com/sul-dlss/dataworks-etl .</p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17653246",
+    "download_link": "https://zenodo.org/api/records/17653246/files/DataWorks DLF Forum-2.pdf/content"
+  },
+  {
+    "id": 17645684,
+    "title": "Sunset Planning: Lessons and Tools for Responsible Stewardship of Community Digital Infrastructure and Projects",
+    "authors": "Becker, Snowden, Kinnaman, Alex, Vowell, Zachary, Wiseman, Christine",
+    "abstract": "<p>Sharing lessons from the sunset of the twenty-year-old digital preservation network MetaArchive, this workshop provides tools to help community-based digital infrastructure and projects anticipate endings and pivotal changes as a part of holistic sustainability planning; express core values; and address diverse member needs as part of graceful change management.</p>\n<p>See <a href=\"https://bit.ly/sunset-resources\">https://bit.ly/sunset-resources</a> for supplemental materials at the workshop.</p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17645684",
+    "download_link": "https://zenodo.org/api/records/17645684/files/sunsetPlanning_dlf_11-2025.pptx/content"
+  },
+  {
+    "id": 17645561,
+    "title": "We Are the [Project] Champions: Collaborative Project Management in a Digital Imaging Lab",
+    "authors": "Kinnaman, Alex, Westblade, Julia",
+    "abstract": "<p>This presentation details the system of committees Virginia Tech University Libraries uses to evaluate digitization projects, consult with stakeholders, and oversee production. Involving a team ensures digital collections at VTUL are diverse, equitable, and accessible. The presentation will highlight workflows and strategies for project management of several large, concurrent projects.</p>\n<p>See <a href=\"https://bit.ly/DLF-dig-project-resources\">https://bit.ly/DLF-dig-project-resources</a> for supplemental materials at the presentation.</p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17645561",
+    "download_link": "https://zenodo.org/api/records/17645561/files/DLF25_ProjectChampions.pptx/content"
+  },
+  {
+    "id": 17644026,
+    "title": "Hire Learning: Reducing Accessibility Work Burnout with Methodical Student Employee Hiring v.2 with links",
+    "authors": "Birchmeier, Bryan",
+    "abstract": "<p>An overview of accessibility initiatives at the University of Michigan libraries which employ students with specific, complementary skills to address remediation of content, alleviate workload, and address accessibility gaps present at the libraries.</p>\n<p>This version of the presentation contains links requested by audience members for reference. Those links are located in the notes field of the final slide.</p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17644026",
+    "download_link": "https://zenodo.org/api/records/17644026/files/Hire Learning - DLF Forum 2025 - Bryan Birchmeier.pptx/content"
+  },
+  {
+    "id": 17641702,
+    "title": "What's in the Box? LIS Students Use a Digital Humanities Toolkit to Explore Interdisciplinary Research Potential  within Undiscovered Collections",
+    "authors": "Hass, Madeline, Dziengel, Meghan, Belovich, Alex",
+    "abstract": "<p>Drawing on student-led work, this presentation introduces and demonstrates an accessible and freely available digital humanities toolkit that can be applied to a common problem within library collection management: a collection of materials that lacks rich metadata and appears to have a narrow range of potential users.</p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17641702",
+    "download_link": "https://zenodo.org/api/records/17641702/files/What's in the Box_ Dziengel, Hass, and Belovich_ UW-Madison iSchool.pdf/content"
+  },
+  {
+    "id": 17641532,
     "title": "Inclusive description? In this political climate?",
     "authors": "Beck, Emma, Wright, Challen",
     "abstract": "",
     "year": 2025,
-    "doi": "https://doi.org/10.5281/zenodo.17636285",
-    "download_link": "https://zenodo.org/api/records/17636285/files/T21_ Inclusive description_ In this political climate_.pptx/content"
+    "doi": "https://doi.org/10.5281/zenodo.17641532",
+    "download_link": "https://zenodo.org/api/records/17641532/files/T21_ Inclusive description_ In this political climate_ (1).pptx/content"
   },
   {
     "id": 17636451,
@@ -27,13 +207,13 @@
     "download_link": "https://zenodo.org/api/records/17636451/files/miessler_dlf_2025_zenodo.pdf/content"
   },
   {
-    "id": 17634480,
-    "title": "Hire Learning: Reducing Accessibility Work Burnout with Methodical Student Employee Hiring",
-    "authors": "Birchmeier, Bryan",
-    "abstract": "<p>An overview of accessibility initiatives at the University of Michigan libraries which employ students with specific, complementary skills to address remediation of content, alleviate workload, and address accessibility gaps present at the libraries.</p>",
+    "id": 17639376,
+    "title": "LDF Recollection: Establishing Digital Workflows for a Legal Civil Rights Archive",
+    "authors": "Wong, Shelby, Wingate, Ashton",
+    "abstract": "",
     "year": 2025,
-    "doi": "https://doi.org/10.5281/zenodo.17634480",
-    "download_link": "https://zenodo.org/api/records/17634480/files/Hire Learning - DLF Forum 2025 - Bryan Birchmeier.pptx/content"
+    "doi": "https://doi.org/10.5281/zenodo.17639376",
+    "download_link": "https://zenodo.org/api/records/17639376/files/DLF Presentation 2025.pptx/content"
   },
   {
     "id": 17625701,
@@ -97,6 +277,24 @@
     "year": 2025,
     "doi": "https://doi.org/10.5281/zenodo.17594695",
     "download_link": "https://zenodo.org/api/records/17594695/files/Matusiak_Han_2025 DLF Forum.pptx/content"
+  },
+  {
+    "id": 17651836,
+    "title": "The Metadata Lifecycle: From Creation to Preservation",
+    "authors": "Caleb Simone, Patricia Glowinski, Kelli O'Toole",
+    "abstract": "<div>\n<div>This panel explores the lifecycle of metadata in digital collections, focusing on how the utility of metadata evolves from creation to preservation. We examine metadata's transformations through the perspectives of collections management, digital access, and digital preservation. We use examples from completed, in-progress, and planned collections, addressing successes and challenges.</div>\n</div>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17651836",
+    "download_link": "https://zenodo.org/api/records/17651836/files/DORIS_DLF-2025.pptx/content"
+  },
+  {
+    "id": 17643596,
+    "title": "From Archives to Access: AI-Powered Transcription for Multimedia Collections",
+    "authors": "Butler, Matthew",
+    "abstract": "<p>This presentation introduces a validated AI pipeline for generating transcripts and summaries of historic political ads. Developed collaboratively and described in a recent peer-reviewed study co-authored by the presenter, the project demonstrates tools for evaluating and enabling access to video collections, offering librarians, archivists and developers practical methods to enhance discoverability and reuse.</p>",
+    "year": 2025,
+    "doi": "https://doi.org/10.5281/zenodo.17643596",
+    "download_link": "https://zenodo.org/api/records/17643596/files/butler-dlf-2025.pptx/content"
   },
   {
     "id": 17636438,

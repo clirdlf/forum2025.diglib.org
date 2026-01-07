@@ -26,16 +26,6 @@ draft: true
        Learn@DLF workshops are in-depth, hands-on training sessions on specific tools, techniques, workflows, or concepts. Q&A and discussion are incorporated throughout in an interactive and inclusive format. Learn@DLF workshops are three hours long in total, composed of two 90-minute halves with a 15 minute break between.
       </p>
     </div>
-    <div>
-      <img
-        src="https://placecage.lucidinternets.com/800/600"
-        alt="team work"
-        class="mb-6 h-full lg:h-[370px] w-full shadow-lg rounded-xl object-cover object-center"
-      /><img
-        src="https://placecage.lucidinternets.com/800/600"
-        alt="team work"
-        class="h-full lg:h-[370px] w-full shadow-lg rounded-xl object-cover object-center"
-      />
-    </div>
+    
   </div>
 </section>
